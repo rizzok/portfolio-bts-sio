@@ -17,12 +17,17 @@ $page = $_SERVER['PHP_SELF'];
     <title>Portfolio de Kévin RIZZO | BTS SIO option SLAM</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-411/bootstrap.min.css" rel="stylesheet">
+    <!-- Black to top icon -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="/css/style.css" rel="stylesheet" >
 </head>
 
 <body class="d-flex flex-column h-100">
+
+    <!-- Back to top button -->
+    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
 
     <header>
         <nav id="menu-nav" class="navbar navbar-expand-lg navbar-dark fixed-top">

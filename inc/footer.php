@@ -1,4 +1,3 @@
-
     </main>
     
     <footer class="mt-auto py-5 text-white">
@@ -24,6 +23,8 @@
     <script src="/js/popper.min.js"></script>
     <!-- Bootstrap -->
     <script src="/js/bootstrap-411/bootstrap.min.js"></script>
+    <!-- Personnal JS -->
+    <script type="text/javascript" src="/js/script.js"></script>
     <!-- SCRIPTS END -->
 </body>
 
