@@ -6,7 +6,7 @@
 
         <div class="container py-5">
             <div class="mb-5">
-                <p>Texte de description de la page compétences</p>
+                <p class="text-center">Voici les principales compétences que j'ai acquises lors de mon parcours professionnel et de ma formation au CNED.</p>
             </div>
 
             <div class="card mb-3">
