@@ -46,23 +46,20 @@ $page = $_SERVER['PHP_SELF'];
                         <li class="nav-item px-3 text-light<?php if($page=="/index.php") echo' active'; ?>">
                             <a class="nav-link" href="/">Accueil<?php if($page=="/index.php") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
-                        <li class="nav-item px-3<?php if($page=="/profil.php" || dirname($page)=="/profil") echo' active'; ?>">
-                            <a class="nav-link" href="/profil.php">Profil<?php if($page=="/profil.php" || dirname($page)=="/profil") echo' <span class="sr-only">(current)</span>'; ?></a>
+                        <li class="nav-item px-3<?php if($page=="/pages/profil.php" || dirname($page)=="/pages/profil") echo' active'; ?>">
+                            <a class="nav-link" href="/pages/profil.php">Profil<?php if($page=="/pages/profil.php" || dirname($page)=="/pages/profil") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
-                        <li class="nav-item px-3<?php if($page=="/competences.php" || dirname($page)=="/competences") echo' active'; ?>">
-                            <a class="nav-link" href="/competences.php">Compétences<?php if($page=="/competences.php" || dirname($page)=="/competences") echo' <span class="sr-only">(current)</span>'; ?></a>
+                        <li class="nav-item px-3<?php if($page=="/pages/competences.php" || dirname($page)=="/pages/competences") echo' active'; ?>">
+                            <a class="nav-link" href="/pages/competences.php">Compétences<?php if($page=="/pages/competences.php" || dirname($page)=="/pages/competences") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
-                        <li class="nav-item px-3<?php if($page=="/projets.php" || dirname($page)=="/projets") echo' active'; ?>">
-                            <a class="nav-link" href="/projets.php">Projets<?php if($page=="/projets.php" || dirname($page)=="/projets") echo' <span class="sr-only">(current)</span>'; ?></a>
+                        <li class="nav-item px-3<?php if($page=="/pages/projets.php" || dirname($page)=="/pages/projets") echo' active'; ?>">
+                            <a class="nav-link" href="/pages/projets.php">Projets<?php if($page=="/pages/projets.php" || dirname($page)=="/pages/projets") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
-                        <li class="nav-item px-3<?php if($page=="/veilles.php" || dirname($page)=="/veilles") echo' active'; ?>">
-                            <a class="nav-link" href="/veilles.php">Veilles<?php if($page=="/veilles.php" || dirname($page)=="/veilles") echo' <span class="sr-only">(current)</span>'; ?></a>
+                        <li class="nav-item px-3<?php if($page=="/pages/veilles.php" || dirname($page)=="/pages/veilles") echo' active'; ?>">
+                            <a class="nav-link" href="/pages/veilles.php">Veilles<?php if($page=="/pages/veilles.php" || dirname($page)=="/pages/veilles") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
-                        <li class="nav-item px-3<?php if($page=="/cv.php" || dirname($page)=="/cv") echo' active'; ?>">
-                            <a class="nav-link" href="/cv.php">CV<?php if($page=="/cv.php" || dirname($page)=="/cv") echo' <span class="sr-only">(current)</span>'; ?></a>
-                        </li>
-                        <li class="nav-item px-3<?php if($page=="/contact.php" || dirname($page)=="/contact") echo' active'; ?>">
-                            <a class="nav-link" href="/contact.php">Contact<?php if($page=="/contact.php" || dirname($page)=="/contact") echo' <span class="sr-only">(current)</span>'; ?></a>
+                        <li class="nav-item px-3<?php if($page=="/pages/contact.php" || dirname($page)=="/pages/contact") echo' active'; ?>">
+                            <a class="nav-link" href="/pages/contact.php">Contact<?php if($page=="/pages/contact.php" || dirname($page)=="/pages/contact") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
                     </ul>
                 </div>

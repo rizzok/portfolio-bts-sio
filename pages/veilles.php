@@ -1,4 +1,4 @@
-<?php require 'inc/header.php';?>
+<?php require '../inc/header.php';?>
 
         <div class="p-3 p-md-5 text-center bg-light">
 			<h1 class="display-4 font-weight-normal">Veilles</h1>
@@ -9,4 +9,4 @@
 
         </div>
 
-<?php require 'inc/footer.php';?>
+<?php require '../inc/footer.php';?>

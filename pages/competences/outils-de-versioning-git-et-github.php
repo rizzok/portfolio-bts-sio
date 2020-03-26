@@ -1,4 +1,4 @@
-<?php require '../inc/header.php';?>
+<?php require '../../inc/header.php';?>
 
         <div id="page-top-section" class="p-3 p-md-5 text-center">
             <h1 class="display-4 font-weight-normal text-white">Compétences</h1>
@@ -195,4 +195,4 @@
             </div>
         </div>
 
-<?php require '../inc/footer.php';?>
+<?php require '../../inc/footer.php';?>

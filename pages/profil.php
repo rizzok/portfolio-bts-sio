@@ -1,4 +1,4 @@
-<?php require 'inc/header.php';?>
+<?php require '../inc/header.php';?>
 
 		<div id="page-top-section" class="p-3 p-md-5 text-center">
             <h1 class="display-4 font-weight-normal text-white">Profil</h1>
@@ -15,11 +15,11 @@
 
 			<!-- CV -->
 			<div class="mb-5">
-				<a href="/cv.php"><button type="button" class="btn btn-primary">Voir mon CV</button></a>
+				<a href="/pages/cv.php"><button type="button" class="btn btn-primary">Mon CV</button></a>
 			</div>
 
 			<!-- LinkedIn -->
 
         </div>
 
-<?php require 'inc/footer.php';?>
+<?php require '../inc/footer.php';?>

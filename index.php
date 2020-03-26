@@ -5,55 +5,20 @@
 			<h2 class="lead font-weight-normal text-white">BTS SIO option SLAM</h2>
 		</div>
 
-		<div class="container mt-4 mb-3">
-			<p class="h1 text-center">Bienvenue</p>
-		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 m-auto">
 
-		<div class="mb-3">
-			<div class="container">
-				<div class="row index-categories">
-					<div class="col-sm-6 col-lg-4 py-3">
-						<a href="/profil.php">
-							<div class="border rounded">
-								<p>Profil</p>
-							</div>
-						</a>
+					<div class="my-4">
+						<p class="h4">Bienvenue,</p>
 					</div>
-					<div class="col-sm-6 col-lg-4 py-3">
-						<a href="/competences.php">
-							<div class="border rounded">
-								<p>Compétences</p>
-							</div>
-						</a>
+
+					<div class="mb-5 text-justify">
+						<p>Je m'appelle Kévin RIZZO, j'ai 30 ans et je suis candidat au BTS SIO option SLAM : Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers.</p>
+						<p>Je me présente à l’examen du BTS au titre de mon expérience professionnelle de 5 ans, en tant que développeur web, au sein de l’entreprise Via Sante. J’ai également suivi 2 années d’études par correspondance, via le CNED.</p>
+						<p>Ce portfolio a pour but de vous présenter l'étendue de mes compétences dans le domaine de la programmation informatique.</p>
 					</div>
-					<div class="col-sm-6 col-lg-4 py-3">
-						<a href="/projets.php">
-							<div class="border rounded">
-								<p>Projets</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-sm-6 col-lg-4 py-3">
-						<a href="/veilles.php">
-							<div class="border rounded">
-								<p>Veilles</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-sm-6 col-lg-4 py-3">
-						<a href="/cv.php">
-							<div class="border rounded">
-								<p>CV</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-sm-6 col-lg-4 py-3">
-						<a href="/contact.php">
-							<div class="border rounded">
-								<p>Contact</p>
-							</div>
-						</a>
-					</div>
+
 				</div>
 			</div>
 		</div>
