@@ -4,6 +4,17 @@
             <h1 class="display-4 font-weight-normal text-white">CV</h1>
         </div>
 
+        <div class="breadcrumb-container d-none d-sm-block">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/" class="breadcrumb-item-unactive">Accueil</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">CV</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
         <div class="container my-5">
             <div class="m-auto text-center">
                 <a href="/pages/cv/cv-rizzo-kevin.pdf"><button type="button" class="btn btn-outline-primary">Télécharger mon CV</button></a>

@@ -4,6 +4,17 @@
             <h1 class="display-4 font-weight-normal text-white">Compétences</h1>
         </div>
 
+        <div class="breadcrumb-container d-none d-sm-block">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/" class="breadcrumb-item-unactive">Accueil</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Compétences</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 m-auto">

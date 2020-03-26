@@ -9,7 +9,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/" class="breadcrumb-item-unactive">Accueil</a></li>
-                        <li class="breadcrumb-item"><a href="/competences.php" class="breadcrumb-item-unactive">Compétences</a></li>
+                        <li class="breadcrumb-item"><a href="/pages/competences.php" class="breadcrumb-item-unactive">Compétences</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Outils de versioning : Git et GitHub</li>
                     </ol>
                 </nav>
