@@ -13,10 +13,13 @@
 						<p class="h4">Bienvenue,</p>
 					</div>
 
-					<div class="mb-5 text-justify">
+					<div class="mb-4 text-justify">
 						<p>Je m'appelle Kévin RIZZO, j'ai 30 ans et je suis candidat au BTS SIO option SLAM : Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers.</p>
 						<p>Je me présente à l’examen du BTS au titre de mon expérience professionnelle de 5 ans, en tant que développeur web, au sein de l’entreprise Via Sante. J’ai également suivi 2 années d’études par correspondance, via le CNED.</p>
-						<p>Ce portfolio a pour but de vous présenter l'étendue de mes compétences dans le domaine de la programmation informatique.</p>
+					</div>
+
+					<div class="mb-4 m-auto text-center">
+						<a href="/pages/cv.php"><button type="button" class="btn btn-outline-primary">Voir mon CV</button></a>
 					</div>
 
 				</div>
