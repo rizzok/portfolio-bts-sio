@@ -28,7 +28,7 @@
 
                     <div class="mt-3 mb-5">                    
                         <h3 id="item-1">À quoi servent Git et GitHub ?</h3>
-                        <p class="text-justify"><b>Git</b> est un outil open source gratuit, qui permet à chaque utilisateur du projet de disposer en local de l’historique de son code. Git permet d’enregistrer des instantanés de fichiers, de suivre l’évolution et l’historique des modifications effectuées, de créer des branches secondaires dans un projet, afin de soumettre par la suite ses modifications à son équipe, en vue de combiner le nouveau code dans la branche principale du projet.</p>
+                        <p class="text-justify"><b>Git</b> est un outil open source gratuit, qui permet à chaque utilisateur du projet de disposer de l’historique de son code. Git permet d’enregistrer des instantanés de fichiers, de suivre l’évolution et l’historique des modifications effectuées, de créer des branches secondaires dans un projet, afin de soumettre par la suite ses modifications à son équipe, en vue de combiner le nouveau code dans la branche principale du projet.</p>
                         <p class="text-justify"><b>GitHub</b> est un service web d’hébergement utilisant Git, qui permet de stocker ses projets en ligne. Il est utile pour le travail collaboratif. Disposant d'une grande communauté, GitHub offre la possibilité aux développeurs de participer à des projets open source ou simplement de s'entraider.</p>
                     </div>
 

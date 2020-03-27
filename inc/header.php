@@ -46,9 +46,6 @@ $page = $_SERVER['PHP_SELF'];
                         <li class="nav-item px-3 text-light<?php if($page=="/index.php") echo' active'; ?>">
                             <a class="nav-link" href="/">Accueil<?php if($page=="/index.php") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
-                        <li class="nav-item px-3<?php if($page=="/pages/profil.php" || dirname($page)=="/pages/profil") echo' active'; ?>">
-                            <a class="nav-link" href="/pages/profil.php">Profil<?php if($page=="/pages/profil.php" || dirname($page)=="/pages/profil") echo' <span class="sr-only">(current)</span>'; ?></a>
-                        </li>
                         <li class="nav-item px-3<?php if($page=="/pages/competences.php" || dirname($page)=="/pages/competences") echo' active'; ?>">
                             <a class="nav-link" href="/pages/competences.php">Compétences<?php if($page=="/pages/competences.php" || dirname($page)=="/pages/competences") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>

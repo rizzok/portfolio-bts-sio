@@ -25,6 +25,14 @@ a:hover {
   background-color: #00ACED;
   border-color: #00ACED;
 }
+.btn-outline-primary {
+  border-color: #0274B3;
+  color: #0274B3;
+}
+.btn-outline-primary:hover {
+  border-color: #00ACED;
+  background-color: #00ACED;
+}
 
 #page-top-section {
   background-image: linear-gradient(rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.5)), url(/img/ostyl-top-page-bg.jpg);
@@ -68,9 +76,15 @@ a:hover {
     background-color: #E9ECEF;
 }
 
-/*** PAGES ***/
+/****** PAGES DEBUT ******/
+/*** PROJETS ***/
+@media (max-width: 991px) {
+  #projets #sites-web .card img {
+    max-width: 300px;
+  }
+}
 
-
+/****** PAGES FIN ******/
 
 /*** ARTICLE ***/
 
@@ -131,6 +145,7 @@ a:hover {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  z-index: 1000;
 }
 #return-to-top i {
   color: #fff;

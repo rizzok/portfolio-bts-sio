@@ -17,18 +17,24 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-9 m-auto">
+				<div class="col-lg-9 m-auto text-center">
 
-                    <div class="my-5">
-                        <p class="text-center">Voici les principales compétences que j'ai acquises lors de mon parcours professionnel et de ma formation au CNED.</p>
+                    <!-- AJOUTER lien vers tableau des compétences -->
+                    <div class="my-5 border rounded p-4">
+                        <h2 class="h3">Tableau des compétences pour le BTS SIO SLAM</h2>
+                        <a href="/pages/competences/outils-de-versioning-git-et-github.php" class="btn btn-primary mt-3">Afficher le tableau des compétences</a>
+                    </div>
+
+                    <div class="mb-5">
+                        <p>Voici les principales compétences que j'ai acquises lors de mon parcours professionnel et de ma formation au CNED.</p>
                     </div>
 
                     <div class="card mb-5">
                         <a href="/pages/competences/outils-de-versioning-git-et-github.php">
                             <img src="/img/competences/git-github.jpg" class="card-img-top" alt="Git et GitHub">
                         </a>
-                        <div class="card-footer text-center">
-                            <h2 class="card-title">Outils de versioning : Git et GitHub</h2>
+                        <div class="card-footer">
+                            <h3 class="card-title">Outils de versioning : Git et GitHub</h2>
                             <p class="card-text">J’utilise les outils Git et GitHub pour la gestion des versions et le travail collaboratif.</p>
                             <a href="/pages/competences/outils-de-versioning-git-et-github.php" class="btn btn-primary">Afficher la page</a>
                         </div>

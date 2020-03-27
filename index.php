@@ -9,17 +9,23 @@
 			<div class="row">
 				<div class="col-lg-9 m-auto">
 
-					<div class="my-4">
-						<p class="h4">Bienvenue,</p>
-					</div>
-
-					<div class="mb-4 text-justify">
-						<p>Je m'appelle Kévin RIZZO, j'ai 30 ans et je suis candidat au BTS SIO option SLAM : Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers.</p>
+					<div class="my-4 text-justify">
+						<p class="h4 mb-4">Bienvenue,</p>
+						<p>Je m'appelle Kévin RIZZO, j'ai 30 ans et je suis candidat à l'examen du BTS SIO option SLAM : Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers.</p>
 						<p>Je me présente à l’examen du BTS au titre de mon expérience professionnelle de 5 ans, en tant que développeur web, au sein de l’entreprise Via Sante. J’ai également suivi 2 années d’études par correspondance, via le CNED.</p>
 					</div>
+					<hr/>
 
-					<div class="mb-4 m-auto text-center">
-						<a href="/pages/cv.php"><button type="button" class="btn btn-outline-primary">Voir mon CV</button></a>
+					<div class="my-4 ">
+						<h2 class="h3 mb-3">Curriculum Vitae</h2>
+						<a href="/pages/cv.php" target="_blank"><button type="button" class="btn btn-outline-primary mr-3">Voir mon CV</button></a>
+						<a href="/pages/cv/cv-rizzo-kevin.pdf" download="CV RIZZO Kévin.pdf"><button type="button" class="btn btn-outline-primary">Télécharger mon CV</button></a>
+					</div>
+					<hr/>
+
+					<div class="my-4">
+						<h2 class="h3 mb-3">Contact</h2>
+						<a href="/pages/contact.php"><button type="button" class="btn btn-outline-primary">Me contacter</button></a>
 					</div>
 
 				</div>

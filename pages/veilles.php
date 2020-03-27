@@ -19,7 +19,14 @@
 			<div class="row">
 				<div class="col-lg-9 m-auto">
 
+                    <h2 class="text-center my-5">VEILLE INFORMATIQUE</h2>
 
+                    <h3 class="h4 my-3">Méthodes de veille</h3>
+                    <p>- Grâce à Twitter, à condition de suivre des pages et fils d'actualités pertinents.</p>
+                    <p>--intégrer block Twitter--</p>
+
+                    <hr class="my-5"/>
+                    <h2 class="text-center my-5">VEILLE JURIDIQUE</h2>
 
                 </div>
             </div>
