@@ -52,8 +52,8 @@ $page = $_SERVER['PHP_SELF'];
                         <li class="nav-item px-3<?php if($page=="/pages/projets.php" || dirname($page)=="/pages/projets") echo' active'; ?>">
                             <a class="nav-link" href="/pages/projets.php">Projets<?php if($page=="/pages/projets.php" || dirname($page)=="/pages/projets") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
-                        <li class="nav-item px-3<?php if($page=="/pages/veilles.php" || dirname($page)=="/pages/veilles") echo' active'; ?>">
-                            <a class="nav-link" href="/pages/veilles.php">Veilles<?php if($page=="/pages/veilles.php" || dirname($page)=="/pages/veilles") echo' <span class="sr-only">(current)</span>'; ?></a>
+                        <li class="nav-item px-3<?php if($page=="/pages/veille-technologique.php" || dirname($page)=="/pages/veille-technologique") echo' active'; ?>">
+                            <a class="nav-link" href="/pages/veille-technologique.php">Veille Technologique<?php if($page=="/pages/veille-technologique.php" || dirname($page)=="/pages/veille-technologique") echo' <span class="sr-only">(current)</span>'; ?></a>
                         </li>
                         <li class="nav-item px-3<?php if($page=="/pages/contact.php" || dirname($page)=="/pages/contact") echo' active'; ?>">
                             <a class="nav-link" href="/pages/contact.php">Contact<?php if($page=="/pages/contact.php" || dirname($page)=="/pages/contact") echo' <span class="sr-only">(current)</span>'; ?></a>
