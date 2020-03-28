@@ -21,7 +21,9 @@
                     
                     <div class="my-4">
                         <h2 class="h4 mb-3">Qu'est-ce que la veille technologique ?</h3>
-                        <p>La veille technologique consiste à s'informer de manière régulière sur les innovations d'un domaine ou d'un sujet, dans le but d'anticiper tout changement dans un secteur et pouvoir garder un avantage concurrentiel.</p>
+                        <p>La veille technologique est une des catégories de veilles que peut mener une société. Par exemple, une entreprise peut tout à fait exercer une veille commerciale, concurrentielle, marketing, environnementale, juridique, etc. L’objectif étant toujours le même : assurer un suivi de l’évolution du domaine concerné.</p>
+                        <p>La veille technologique est une veille spécifique, sa mise en place permet d’étudier l’évolution de sujets et secteurs en mutation permanente. Cette action permet ainsi à une entreprise de suivre le développement et l’apparition de nouvelles technologiques pouvant considérablement influer sur son activité.<br>
+                        Elle permet également de rester en permanence informé lorsque l’entreprise évolue dans des contextes où les usages et les nouveaux acteurs changent souvent.</p>
                     </div>
                     <hr/>
                     

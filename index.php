@@ -16,14 +16,14 @@
 					</div>
 					<hr/>
 
-					<div class="my-4 ">
+					<div class="my-4 text-center">
 						<h2 class="h3 mb-3">Curriculum Vitae</h2>
 						<a href="/pages/cv.php" target="_blank"><button type="button" class="btn btn-outline-primary mr-3">Voir mon CV</button></a>
 						<a href="/pages/cv/cv-rizzo-kevin.pdf" download="CV RIZZO Kévin.pdf"><button type="button" class="btn btn-outline-primary">Télécharger mon CV</button></a>
 					</div>
 					<hr/>
 
-					<div class="my-4">
+					<div class="my-4 text-center">
 						<h2 class="h3 mb-3">Contact</h2>
 						<a href="/pages/contact.php"><button type="button" class="btn btn-outline-primary">Me contacter</button></a>
 					</div>
