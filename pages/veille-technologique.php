@@ -20,7 +20,7 @@
 				<div class="col-lg-9 m-auto text-justify">
                     
                     <div class="my-4">
-                        <h2 class="h4 mb-3">Qu'est-ce que la veille technologique ?</h3>
+                        <h2 class="h3 mb-3">Qu'est-ce que la veille technologique ?</h3>
                         <p>La veille technologique est une des catégories de veilles que peut mener une société. Par exemple, une entreprise peut tout à fait exercer une veille commerciale, concurrentielle, marketing, environnementale, juridique, etc. L’objectif étant toujours le même : assurer un suivi de l’évolution du domaine concerné.</p>
                         <p>La veille technologique est une veille spécifique, sa mise en place permet d’étudier l’évolution de sujets et secteurs en mutation permanente. Cette action permet ainsi à une entreprise de suivre le développement et l’apparition de nouvelles technologiques pouvant considérablement influer sur son activité.<br>
                         Elle permet également de rester en permanence informé lorsque l’entreprise évolue dans des contextes où les usages et les nouveaux acteurs changent souvent.</p>
@@ -28,7 +28,7 @@
                     <hr/>
                     
                     <div class="my-4">
-                        <h2 class="h4 mb-3">Méthodes, supports et outils utilisés</h3>
+                        <h2 class="h3 mb-3">Méthodes, supports et outils utilisés</h3>
                         <p>Pour mettre en place une veille technologique, il est nécessaire de bien chercher, collecter et analyser les informations.</p> 
                         <p>Pour ce faire, plusieurs méthodes existent : </p>
                         <ul>
@@ -41,20 +41,20 @@
                     <hr/>
                     
                     <div class="my-4">
-                        <h2 class="h4 mb-3">Sujet principal de la veille</h3>
+                        <h2 class="h3 mb-3">Sujet principal de la veille</h3>
                         <p>--blablabla--</p>
                     </div>
                     <hr/>
                     
                     <div class="my-4">
-                        <h2 class="h4 mb-3">Sources d'information</h3>
+                        <h2 class="h3 mb-3">Sources d'information</h3>
                         <p>Twitter, Google News, </p>
                         <p>--intégrer blocks Twitter et autres--</p>
                     </div>
                     <hr/>
                     
                     <div class="my-4">
-                        <h2 class="h4 mb-3">Conclusion de la veille</h3>
+                        <h2 class="h3 mb-3">Conclusion de la veille</h3>
                         <p>--blablabla--</p>
                     </div>
 
