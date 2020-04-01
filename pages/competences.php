@@ -1,4 +1,10 @@
-<?php require '../inc/header.php';?>
+<?php
+$page_title = "Compétences - Portfolio de Kévin RIZZO | BTS SIO option SLAM";
+$page_description = "Compétences de Kévin RIZZO, étudiant en BTS SIO SLAM";
+$navbar_section = 'competences';
+
+require '../inc/header.php';
+?>
 
         <div id="page-top-section" class="p-3 p-md-5 text-center">
             <h1 class="display-4 font-weight-normal text-white">Compétences</h1>

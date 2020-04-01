@@ -1,4 +1,10 @@
-<?php require 'inc/header.php'; ?>
+<?php
+$page_title = "Portfolio de Kévin RIZZO | BTS SIO option SLAM";
+$page_description = "Kévin RIZZO - Étudiant en BTS SIO SLAM";
+$navbar_section = 'index';
+
+require 'inc/header.php';
+?>
 
 		<div id="page-top-section" class="p-3 p-md-5 text-center">
 			<h1 class="display-4 font-weight-normal text-white">Portfolio de Kévin RIZZO</h1>

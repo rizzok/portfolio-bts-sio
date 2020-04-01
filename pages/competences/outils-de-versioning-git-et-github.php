@@ -1,4 +1,10 @@
-<?php require '../../inc/header.php';?>
+<?php
+$page_title = "Outils de versioning : Git et GitHub | Portfolio de Kévin RIZZO";
+$page_description = "Présentation des outils de versioning : Git et GitHub | Compétences BTS SIO";
+$navbar_section = 'competences';
+
+require '../../inc/header.php';
+?>
 
         <div id="page-top-section" class="p-3 p-md-5 text-center">
             <h1 class="display-4 font-weight-normal text-white">Compétences</h1>

@@ -1,4 +1,10 @@
-<?php require '../inc/header.php';?>
+<?php
+$page_title = "Projets - Portfolio de Kévin RIZZO | BTS SIO option SLAM";
+$page_description = "Projets de Kévin RIZZO, étudiant en BTS SIO SLAM";
+$navbar_section = 'projets';
+
+require '../inc/header.php';
+?>
 
         <div id="projets">
 

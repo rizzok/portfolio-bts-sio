@@ -9,7 +9,7 @@
                         <li class="list-inline-item"><a href="https://github.com/rizzok" target="_blank" rel="noopener noreferrer"><img src="/img/footer-icons/github.png" alt="github" width="32" height="32"></a></li>
                         <li class="list-inline-item"><a href="https://twitter.com/Siciliano13100" target="_blank" rel="noopener noreferrer"><img src="/img/footer-icons/twitter.png" alt="twitter" width="32" height="32"></a></li>
                     </ul>
-                    <p class="text-center font-weight-light mb-0">2020 © Kévin RIZZO</p>
+                    <p class="text-center font-weight-light mb-0"><?= date('Y') ?> © Kévin RIZZO</p>
                 </div>
             </div>
         </div>
