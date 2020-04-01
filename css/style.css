@@ -34,6 +34,18 @@ a:hover {
   background-color: #00ACED;
 }
 
+/*** MENU BEGGIN ***/
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  transition: 0.1s 0.05s;
+}
+.dropdown:hover > .dropdown-menu {
+  visibility: visible;
+  transition-delay: 0s;
+}
+/*** MENU END ***/
+
 #page-top-section {
   background-image: linear-gradient(rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.5)), url(/img/ostyl-top-page-bg.jpg);
   background-position-y: 63%;

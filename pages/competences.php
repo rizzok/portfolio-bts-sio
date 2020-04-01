@@ -64,17 +64,20 @@
 
                 <div class="col-lg-9 m-auto text-center">
 
-                    <div class="mb-5">
+                    <div class="mb-4">
                         <h2>Mes autres compétences</h2>
                     </div>
 
                     <div>
                         <ul>
-                            <li>Virtualisation (Hyper-V, VirtualBox, VMware)</li>
                             <li>Gestion de bases de données</li>
                             <li>Architecture MVC (Modèle – Vue – Contrôleur)</li>
-                            <li>Conception (UML)</li>
+                            <li>Modélisation UML</li>
                             <li>Méthode Agile</li>
+                            <li>Virtualisation (Hyper-V, VirtualBox, VMware)</li>
+                            <li>CMS Prestashop et Wordpress</li>
+                            <li>Manipulation graphique (GIMP)</li>
+                            <li>Référencement : SEO, SEA, SMO</li>
                         </ul>
                     </div>
 

@@ -44,19 +44,34 @@ $page = $_SERVER['PHP_SELF'];
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item px-3 text-light<?php if($page=="/index.php") echo' active'; ?>">
-                            <a class="nav-link" href="/">Accueil<?php if($page=="/index.php") echo' <span class="sr-only">(current)</span>'; ?></a>
+                            <a class="nav-link" href="/">
+                                Accueil
+                                <?php if($page=="/index.php") echo' <span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                         <li class="nav-item px-3<?php if($page=="/pages/competences.php" || dirname($page)=="/pages/competences") echo' active'; ?>">
-                            <a class="nav-link" href="/pages/competences.php">Compétences<?php if($page=="/pages/competences.php" || dirname($page)=="/pages/competences") echo' <span class="sr-only">(current)</span>'; ?></a>
+                            <a class="nav-link" href="/pages/competences.php">
+                                Compétences
+                                <?php if($page=="/pages/competences.php" || dirname($page)=="/pages/competences") echo' <span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                         <li class="nav-item px-3<?php if($page=="/pages/projets.php" || dirname($page)=="/pages/projets") echo' active'; ?>">
-                            <a class="nav-link" href="/pages/projets.php">Projets<?php if($page=="/pages/projets.php" || dirname($page)=="/pages/projets") echo' <span class="sr-only">(current)</span>'; ?></a>
+                            <a class="nav-link" href="/pages/projets.php">
+                                Projets
+                                <?php if($page=="/pages/projets.php" || dirname($page)=="/pages/projets") echo' <span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
-                        <li class="nav-item px-3<?php if($page=="/pages/veille-technologique.php" || dirname($page)=="/pages/veille-technologique") echo' active'; ?>">
-                            <a class="nav-link" href="/pages/veille-technologique.php">Veille Technologique<?php if($page=="/pages/veille-technologique.php" || dirname($page)=="/pages/veille-technologique") echo' <span class="sr-only">(current)</span>'; ?></a>
+                        <li class="nav-item px-3<?php if($page=="/pages/veilles.php" || dirname($page)=="/pages/veilles") echo' active'; ?>">
+                            <a class="nav-link" href="/pages/veilles.php">
+                                Veilles
+                                <?php if($page=="/pages/veilles.php" || dirname($page)=="/pages/veilles") echo' <span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                         <li class="nav-item px-3<?php if($page=="/pages/contact.php" || dirname($page)=="/pages/contact") echo' active'; ?>">
-                            <a class="nav-link" href="/pages/contact.php">Contact<?php if($page=="/pages/contact.php" || dirname($page)=="/pages/contact") echo' <span class="sr-only">(current)</span>'; ?></a>
+                            <a class="nav-link" href="/pages/contact.php">
+                                Contact
+                                <?php if($page=="/pages/contact.php" || dirname($page)=="/pages/contact") echo' <span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                     </ul>
                 </div>
