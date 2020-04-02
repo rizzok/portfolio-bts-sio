@@ -39,12 +39,12 @@
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
-                    <li class="nav-item px-3 text-light<?php if(isset($navbar_section) && $navbar_section == "index") echo' active'; ?>">
-                        <a class="nav-link" href="/">
-                            Accueil
-                            <?php if(isset($navbar_section) && $navbar_section=="index") echo' <span class="sr-only">(current)</span>'; ?>
-                        </a>
-                    </li>
+                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section == "index") echo' active'; ?>">
+                            <a class="nav-link" href="/">
+                                Accueil
+                                <?php if(isset($navbar_section) && $navbar_section=="index") echo' <span class="sr-only">(current)</span>'; ?>
+                            </a>
+                        </li>
                         <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="competences") echo' active'; ?>">
                             <a class="nav-link" href="/pages/competences.php">
                                 Compétences
