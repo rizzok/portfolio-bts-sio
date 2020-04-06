@@ -60,6 +60,11 @@ require '../inc/header.php';
                         <h2 class="h3 mb-3">Sources d'information</h3>
                         <p>Twitter, Google News, </p>
                         <p>--intégrer blocks Twitter et autres--</p>
+
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="//www.pearltrees.com/rizzok13/cloud-computing/id31066620?embed=2&d=202004041741" style="border:0px;" allowtransparency="true"></iframe>
+                        </div>
+
                     </div>
                     
                     <div class="my-4">
