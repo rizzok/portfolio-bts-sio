@@ -26,8 +26,8 @@
     <meta name="description" content="<?= $page_description ?>">
     <meta name="keywords" content="portfolio, cv, programmeur, developpeur, kevin, rizzo, kevin rizzo, bts, sio, slam, logiciel, application, web">
     <meta name="author" content="kevin">
-    <link rel="icon" href="/img/faviconR.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/img/faviconR.ico" type="image/x-icon" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
     
     <title><?= $page_title ?></title>
 
