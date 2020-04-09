@@ -4,6 +4,12 @@ $page_description = "Contact - Kévin RIZZO, étudiant en BTS SIO SLAM";
 $navbar_section = 'contact';
 
 require '../inc/header.php';
+
+// TEST DB QUERY
+$req = $db->prepare('SELECT * FROM contact');
+$req->execute();
+
+
 ?>
 
 <div id="page-top-section" class="p-3 p-md-5 text-center">
@@ -25,7 +31,27 @@ require '../inc/header.php';
 			<div class="row">
 				<div class="col-lg-9 m-auto">
 
-				
+				<table class="table">
+                    <tr>
+                        <th>ID</th>
+                        <th>testvarchar</th>
+                        <th>testint</th>
+                    </tr>
+
+
+            <?php
+            // affichage des données dans un tableau html
+            while ($donnees = $req->fetch()) {
+                echo '<tr>
+                        <td>'.$donnees['id'].'</td>
+                        <td>'.$donnees['testvarchar'].'</td>
+                        <td>'.$donnees['testint'].'</td>
+                    </tr>';
+            }
+            ?>
+
+
+                </table>
 
                 </div>
             </div>

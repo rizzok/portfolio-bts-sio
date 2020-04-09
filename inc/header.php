@@ -1,3 +1,4 @@
+<?php require_once 'db.php'; ?>
 <!doctype html>
 <html lang="fr" class="h-100">
 
