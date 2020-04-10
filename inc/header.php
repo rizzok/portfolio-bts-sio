@@ -67,7 +67,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section == "index") echo' active'; ?>">
                             <a class="nav-link" href="/">
-                                Accueil
+                                Accueil / Profil
                                 <?php if(isset($navbar_section) && $navbar_section=="index") echo' <span class="sr-only">(current)</span>'; ?>
                             </a>
                         </li>

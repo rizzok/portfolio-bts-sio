@@ -1,60 +1,63 @@
 <?php
+session_start();
+
 $page_title = "Contact - Portfolio de Kévin RIZZO | BTS SIO option SLAM";
 $page_description = "Contact - Kévin RIZZO, étudiant en BTS SIO SLAM";
 $navbar_section = 'contact';
 
 require '../inc/header.php';
-
-// TEST DB QUERY
-$req = $db->prepare('SELECT * FROM contact');
-$req->execute();
-
-
 ?>
 
 <div id="page-top-section" class="p-3 p-md-5 text-center">
-            <h1 class="display-4 font-weight-normal text-white">Contact</h1>
+            <h1 class="display-4 font-weight-normal text-white">Me contacter</h1>
         </div>
 
-        <div class="breadcrumb-container d-none d-sm-block">
-            <div class="container">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/" class="breadcrumb-item-unactive">Accueil</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-
-		<div class="container">
+		<div class="container my-5">
 			<div class="row">
 				<div class="col-lg-9 m-auto">
 
-				<table class="table">
-                    <tr>
-                        <th>ID</th>
-                        <th>testvarchar</th>
-                        <th>testint</th>
-                    </tr>
+					<?php if(isset($_SESSION['errors'])): ?>
+						<div class="alert alert-danger text-center p-3">
+							<?= implode('<br>', $_SESSION['errors']); ?>
+						</div>
+					<?php endif; ?>
+					<?php if(isset($_SESSION['success'])): ?>
+						<div class="alert alert-success text-center p-3">
+							Votre message a bien été envoyé
+						</div>
+					<?php endif; ?>
 
+					<form action="post_contact.php" method="POST">
+						<div class="form-group">
+							<input type="email" name="email" placeholder="Votre e-mail" class="form-control" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : ''; ?>" required/>
+						</div>
+						<div class="form-group">
+							<input type="text" name="object" placeholder="Objet de votre demande" class="form-control" value="<?= isset($_SESSION['inputs']['object']) ? $_SESSION['inputs']['object'] : ''; ?>" required/>
+						</div>
+						<div class="form-group">
+							<textarea name="message" placeholder="Votre demande" class="form-control" rows="3" required><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : ''; ?></textarea>
+						</div>
+						<div class="form-group text-center">
+							<button type="submit" class="btn btn-primary">Envoyer</button>
+						</div>
+					</form>
 
-            <?php
-            // affichage des données dans un tableau html
-            while ($donnees = $req->fetch()) {
-                echo '<tr>
-                        <td>'.$donnees['id'].'</td>
-                        <td>'.$donnees['testvarchar'].'</td>
-                        <td>'.$donnees['testint'].'</td>
-                    </tr>';
-            }
-            ?>
+					<h2>Debug :</h2>
+					<?= var_dump($_SESSION); ?>
 
-
-                </table>
 
                 </div>
-            </div>
-        </div>
-
-<?php require '../inc/footer.php';?>
+			</div>
+			<div class="row my-5">
+				<div class="col-lg-9 m-auto text-center">
+					<p>Vous pouvez également me contacter directement par e-mail : <a href="mailto:contact@ostyl.fr">contact@ostyl.fr</a></p>
+				</div>
+			</div>
+		</div>
+		
+<?php
+require '../inc/footer.php';
+unset($_SESSION['inputs']);
+unset($_SESSION['success']);
+unset($_SESSION['errors']);
+?>

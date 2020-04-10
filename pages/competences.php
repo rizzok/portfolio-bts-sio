@@ -7,7 +7,7 @@ require '../inc/header.php';
 ?>
 
         <div id="page-top-section" class="p-3 p-md-5 text-center">
-            <h1 class="display-4 font-weight-normal text-white">Compétences</h1>
+            <h1 class="display-4 font-weight-normal text-white">Mes compétences</h1>
         </div>
 
         <div class="breadcrumb-container d-none d-sm-block">

@@ -9,7 +9,7 @@ require '../inc/header.php';
         <div id="projets">
 
             <div id="page-top-section" class="p-3 p-md-5 text-center">
-                <h1 class="display-4 font-weight-normal text-white">Projets</h1>
+                <h1 class="display-4 font-weight-normal text-white">Mes projets</h1>
             </div>
 
             <div class="breadcrumb-container d-none d-sm-block">
