@@ -28,30 +28,30 @@ require '../inc/header.php';
 				<div class="col-lg-9 m-auto text-center">
 
                     <div class="my-5">
-                        <h2>Mes principales compétences</h2>
+                        <h2>Principales compétences</h2>
                         <p>Acquises lors de mon parcours professionnel et de ma formation au CNED.</p>
                     </div>
 
                     <!-- A FAIRE - intégrer les progressbars en relation, faites sur la page profil, avec le niveau de compétences acquis dans chaque techno -->
                     <div class="card mb-5">
                         <a href="#">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="/img/competences/web-languages-w.jpg" class="card-img-top" alt="Languages de programmation web">
                         </a>
                         <div class="card-footer">
                             <h3 class="card-title">Développement web</h2>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">Création de sites en HTML, CCS, JavaScript, PHP et MySQL</p>
+                            <a href="#" class="btn btn-primary">Afficher la page</a>
                         </div>
                     </div>
 
                     <div class="card mb-5">
                         <a href="#">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="/img/competences/intellij-idea-android-studio.png" class="card-img-top" alt="Programmation Java desktop et mobile">
                         </a>
                         <div class="card-footer">
                             <h3 class="card-title">Développement d'applications</h2>
-                            <p class="card-text">Programmation orientée objet desktop ou mobile Android</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">Programmation orientée objet desktop ou mobile en Java</p>
+                            <a href="#" class="btn btn-primary">Afficher la page</a>
                         </div>
                     </div>
 
@@ -68,10 +68,10 @@ require '../inc/header.php';
 
                 </div>
 
-                <div class="col-lg-9 m-auto text-center">
+                <div class="col-lg-9 m-auto">
 
                     <div class="mb-4">
-                        <h2>Mes autres compétences</h2>
+                        <h2>Autres compétences informatiques</h2>
                     </div>
 
                     <div>
@@ -82,8 +82,8 @@ require '../inc/header.php';
                             <li>Méthode Agile</li>
                             <li>Virtualisation (Hyper-V, VirtualBox, VMware)</li>
                             <li>CMS Prestashop et Wordpress</li>
-                            <li>Manipulation graphique (GIMP)</li>
-                            <li>Référencement : SEO, SEA, SMO</li>
+                            <li>Référencement et campagnes web : SEO, SEA, SMO</li>
+                            <li>Création graphique</li>
                         </ul>
                     </div>
 
@@ -95,7 +95,7 @@ require '../inc/header.php';
                     <!-- AJOUTER lien vers tableau des compétences -->
                     <div class="my-5 border rounded p-4">
                         <h2 class="h4">Tableau des compétences pour le BTS SIO SLAM</h2>
-                        <a href="/pages/competences/outils-de-versioning-git-et-github.php" class="btn btn-primary mt-3">Afficher le tableau des compétences</a>
+                        <a href="#" class="btn btn-primary mt-3">Afficher le tableau des compétences</a>
                     </div>
 
                 </div>

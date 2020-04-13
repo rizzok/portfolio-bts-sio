@@ -40,7 +40,7 @@ require '../inc/header.php';
                             <div>
                                 <img src="/img/projets/ssb-b2c.jpg" class="d-block m-auto py-4" alt="SSB - B2C">
                             </div>
-                            <div class="card-body border-top">
+                            <div class="card-footer border-top">
                                 <h3 class="h5 card-title">Sur le Sentier des Bergers - B2C</h3>
                                 <p class="card-text">Épicerie fine en ligne destinée aux particuliers.<br>Site de e-commerce créé avec le CMS Prestashop.</p>
                                 <div class="mb-4 m-auto text-center">
@@ -56,7 +56,7 @@ require '../inc/header.php';
                             <div>
                                 <img src="/img/projets/ssb-b2b.jpg" class="d-block m-auto py-2" alt="SSB - B2B" width="174">
                             </div>
-                            <div class="card-body border-top">
+                            <div class="card-footer border-top">
                                 <h3 class="h5 card-title">Sur le Sentier des Bergers - B2B</h3>
                                 <p class="card-text">Épicerie fine en ligne destinée aux professionnels.<br>Site de e-commerce créé avec le CMS Prestashop.</p>
                                 <div class="mb-4 m-auto text-center">
@@ -72,7 +72,7 @@ require '../inc/header.php';
                             <div>
                                 <img src="/img/projets/bj.jpg" class="d-block m-auto py-4" alt="BJ">
                             </div>
-                            <div class="card-body border-top">
+                            <div class="card-footer border-top">
                                 <h3 class="h5 card-title">La Boutique des Jambes</h3>
                                 <p class="card-text">Vente de produits de bien-être pour les jambes.<br>Site de e-commerce créé avec le CMS Prestashop.</p>
                                 <div class="mb-4 m-auto text-center">
@@ -88,7 +88,7 @@ require '../inc/header.php';
                             <div>
                                 <img src="/img/projets/trcom.png" class="d-block m-auto py-4" alt="TR com">
                             </div>
-                            <div class="card-body border-top">
+                            <div class="card-footer border-top">
                                 <h3 class="h5 card-title">TR Communication</h3>
                                 <p class="card-text">Community Management, Imprimerie & Signalétique.<br>Site vitrine créé avec le CMS Wordpress.</p>
                                 <div class="mb-4 m-auto text-center">
@@ -109,7 +109,8 @@ require '../inc/header.php';
 
                 <div class="row">
                     <div class="col-lg-9 my-4 m-auto">
-                        <h2>PPE</h2>
+                        <h2 class="mb-4">PPE : Projets Personnels Encadrés</h2>
+                        <p class="text-left">Le référentiel stipule : « Le futur titulaire du BTS services informatiques aux organisations doit tout au long de sa formation, se familiariser au travail en mode projet et avoir recours à des outils méthodologiques de suivi et d’évaluation de projets. Sa participation à des projets d’évolution de systèmes d’information permet de le placer dans un cadre finalisé, proche du réel, dans les conditions nécessaires à l’acquisition des compétences et de la professionnalité. »</p>
                     </div>
                 </div>
 
@@ -117,20 +118,20 @@ require '../inc/header.php';
                     <div class="col-lg-9 m-auto">
 
                         <div class="card my-5">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <img src="/img/projets/java-logo.png" class="card-img-top" alt="Java logo">
+                            <div class="card-footer">
                                 <h3 class="card-title">Projet Java</h3>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Voir la page du projet</a>
                             </div>
                         </div>
                         
                         <div class="card my-5">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <img src="/img/projets/android-studio.png" class="card-img-top" alt="Android Studio logo">
+                            <div class="card-footer">
                                 <h3 class="card-title">Projet Android</h3>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Voir la page du projet</a>
                             </div>
                         </div>
 
@@ -156,20 +157,18 @@ require '../inc/header.php';
                     <div class="col-lg-9 m-auto">
 
                         <div class="card my-5">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <img src="/img/projets/php-logo.png" class="card-img-top" alt="PHP logo">
+                            <div class="card-footer">
                                 <h3 class="card-title">Ce Portfolio</h3>
-                                <p class="card-text">Créé en PHP</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <p class="card-text">Créé en PHP (décrire ici)</p>
                             </div>
                         </div>
 
                         <div class="card my-5">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <img src="/img/projets/raspberry-pi-logo.png" class="card-img-top" alt="Raspberry Pi logo">
+                            <div class="card-footer">
                                 <h3 class="card-title">Raspberry Pi</h3>
-                                <p class="card-text">Lorem bla bla bla</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <p class="card-text">Décrire ici les différents projects</p>
                             </div>
                         </div>
 

@@ -8,7 +8,7 @@ $navbar_section = 'contact';
 require '../inc/header.php';
 ?>
 
-<div id="page-top-section" class="p-3 p-md-5 text-center">
+		<div id="page-top-section" class="p-3 p-md-5 text-center">
             <h1 class="display-4 font-weight-normal text-white">Me contacter</h1>
         </div>
 
@@ -41,10 +41,6 @@ require '../inc/header.php';
 							<button type="submit" class="btn btn-primary">Envoyer</button>
 						</div>
 					</form>
-
-					<h2>Debug :</h2>
-					<?= var_dump($_SESSION); ?>
-
 
                 </div>
 			</div>
