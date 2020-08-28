@@ -7,8 +7,7 @@
                     <ul class="list-inline text-center">
                         <li class="list-inline-item"><a href="https://www.linkedin.com/in/kevin-rizzo" target="_blank" rel="noopener noreferrer"><img src="/img/footer-icons/linkedin.png" alt="linkedin" width="32" height="32"></a></li>
                         <li class="list-inline-item"><a href="https://github.com/rizzok" target="_blank" rel="noopener noreferrer"><img src="/img/footer-icons/github.png" alt="github" width="32" height="32"></a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/sicilijejs13" target="_blank" rel="noopener noreferrer"><img src="/img/footer-icons/twitter.png" alt="twitter" width="32" height="32"></a></li>
-                        <li class="list-inline-item"><a href="https://dev.to/rizzok" target="_blank" rel="noopener noreferrer"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="rizzok's DEV Profile" width="30" height="30"></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/rizzokdev" target="_blank" rel="noopener noreferrer"><img src="/img/footer-icons/twitter.png" alt="twitter" width="32" height="32"></a></li>
                     </ul>
                     <p class="text-center mb-0"><?= date('Y') ?> © Ostyl</p>
                 </div>

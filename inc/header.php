@@ -1,4 +1,3 @@
-<?php require_once 'db.php'; ?>
 <!doctype html>
 <html lang="fr" class="h-100">
 
@@ -65,34 +64,34 @@
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section == "index") echo' active'; ?>">
+                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section == "index") echo ' active'; ?>">
                             <a class="nav-link" href="/">
-                                Accueil / Profil
-                                <?php if(isset($navbar_section) && $navbar_section=="index") echo' <span class="sr-only">(current)</span>'; ?>
+                                Accueil
+                                <?php if(isset($navbar_section) && $navbar_section=="index") echo ' <span class="sr-only">(current)</span>'; ?>
                             </a>
                         </li>
-                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="competences") echo' active'; ?>">
+                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="competences") echo ' active'; ?>">
                             <a class="nav-link" href="/pages/competences.php">
                                 Compétences
-                                <?php if(isset($navbar_section) && $navbar_section=="competences") echo' <span class="sr-only">(current)</span>'; ?>
+                                <?php if(isset($navbar_section) && $navbar_section=="competences") echo ' <span class="sr-only">(current)</span>'; ?>
                             </a>
                         </li>
-                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="projets") echo' active'; ?>">
+                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="projets") echo ' active'; ?>">
                             <a class="nav-link" href="/pages/projets.php">
                                 Projets
-                                <?php if(isset($navbar_section) && $navbar_section=="projets") echo' <span class="sr-only">(current)</span>'; ?>
+                                <?php if(isset($navbar_section) && $navbar_section=="projets") echo ' <span class="sr-only">(current)</span>'; ?>
                             </a>
                         </li>
-                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="veilles") echo' active'; ?>">
+                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="veilles") echo ' active'; ?>">
                             <a class="nav-link" href="/pages/veilles.php">
                                 Veilles
-                                <?php if(isset($navbar_section) && $navbar_section=="veilles") echo' <span class="sr-only">(current)</span>'; ?>
+                                <?php if(isset($navbar_section) && $navbar_section=="veilles") echo ' <span class="sr-only">(current)</span>'; ?>
                             </a>
                         </li>
-                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="contact") echo' active'; ?>">
+                        <li class="nav-item px-3<?php if(isset($navbar_section) && $navbar_section=="contact") echo ' active'; ?>">
                             <a class="nav-link" href="/pages/contact.php">
                                 Contact
-                                <?php if(isset($navbar_section) && $navbar_section=="contact") echo' <span class="sr-only">(current)</span>'; ?>
+                                <?php if(isset($navbar_section) && $navbar_section=="contact") echo ' <span class="sr-only">(current)</span>'; ?>
                             </a>
                         </li>
                     </ul>
