@@ -2,8 +2,12 @@ main {
   margin-top: 56px;
 }
 
-#menu-nav, footer {
+#menu-nav {
   background-color: rgb(30, 30, 30);
+}
+
+footer {
+  background-color: #D2D6DB;
 }
 
 footer p {
