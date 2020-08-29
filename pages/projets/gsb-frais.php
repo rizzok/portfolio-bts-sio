@@ -30,9 +30,14 @@ require '../../inc/header.php';
                 <p>L'application est accessible à l'adresse suivante : <a href="https://gsb.ostyl.fr/" target="_blank">https://gsb.ostyl.fr/</a></p>
                 <ul>
                     <li><a href="https://github.com/rizzok/gsb-frais" target="_blank">Code source</a> (GitHub repository)</li>
+                    <li><a href="https://phpmyadmin.cluster026.hosting.ovh.net/">Base de données du projet en ligne</a> (phpMyAdmin)</li>
                     <li><a href="https://github.com/rizzok/gsb-frais/tree/master/bdd" target="_blank">Base de données</a> (fichier SQL et instructions d'installation en local)</li>
-                    <li><a href="/pages/projets/gsb-frais/gsb-frais-cahier-des-charges.doc">Cahier des charges</a> (fichier Word)</li>
+                </ul>
+                <p>Documents fournis : </p>
+                <ul>
                     <li><a href="/pages/projets/gsb-frais/gsb-organisation.docx">Contexte de l'entreprise GSB</a> (fichier Word)</li>
+                    <li><a href="/pages/projets/gsb-frais/gsb-frais-cahier-des-charges.doc">Cahier des charges</a> (fichier Word)</li>
+                    <li><a href="/pages/projets/gsb-frais/gsb-frais-code-et-bdd-fournis.zip">Code et base de données fournis</a> (fichier .zip)</li>
                 </ul>
             </div>
             <div class="mb-5">
@@ -52,6 +57,10 @@ require '../../inc/header.php';
                         <div class="col-md-6">
                             <h4>Diagramme des cas d'utilisation</h4>
                             <p class="text-justify">L'application est fournie avec les cas d'utilisations liés aux visiteurs ; la partie comptable est à développer selon les cas d'utilisations suivants : </p>
+                            <ul>
+                                <li>Validation d'une fiche de frais</li>
+                                <li>Suivi du paiement des fiches de frais</li>
+                            </ul>
                         </div>
                         <div class="col-md-6">
                             <div class="article-image text-center">
@@ -67,7 +76,7 @@ require '../../inc/header.php';
             <div class="mb-5">
                 <h3 id="item-3">Préparation de l'environnement de développement</h3>
                 <div class="m-3">
-                    <div class="row my-4">
+                    <div class="row my-5">
                         <div class="col-md-6">
                             <h4>Installation de WampServer</h4>
                             <p class="text-justify">WampServer est une plateforme de développement Web de type WAMP, permettant de faire fonctionner localement des scripts PHP. C'est un environnement comprenant trois serveurs, un interpréteur de script, ainsi que phpMyAdmin pour l'administration Web des bases MySQL.</p>
@@ -78,7 +87,7 @@ require '../../inc/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="row my-4">
+                    <div class="row my-5">
                         <div class="col-md-6">
                             <div class="article-image text-center">
                                 <img class="img-thumbnail" src="/img/projets/gsb-frais/02-netbeans.png" alt="Installation de l'IDE NetBeans">
@@ -89,7 +98,7 @@ require '../../inc/header.php';
                             <p class="text-justify">NetBeans est un environnement de développement intégré open source. En plus de Java, NetBeans permet la prise en charge native de divers langages tels le C, le C++, le JavaScript, le XML, le Groovy, le PHP et le HTML, ou d'autres par l'ajout de greffons.</p>
                         </div>
                     </div>
-                    <div class="row my-4">
+                    <div class="row my-5">
                         <div class="col-md-6">
                             <h4>Activation de Xdebug</h4>
                             <p class="text-justify">Xdebug est une bibliothèque logicielle, extension pour PHP apportant des fonctions de débogage et de profilage.</p>
@@ -103,23 +112,28 @@ require '../../inc/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="row my-4">
-                        <div class="col-md-4">
-                            <div class="article-image text-center">
-                                <img class="img-thumbnail" src="/img/projets/gsb-frais/06-netbeans-git-outils.png" alt="Outils liés à Git sur NetBeans">
-                                <p class="text-center">Outils liés à Git sur NetBeans</p>
-                            </div>
-                        </div>
+                    <div class="row my-5">
                         <div class="col-md-8">
                             <h4>Initialisation de Git et création du repository sur GitHub</h4>
-                            <p class="text-justify">Git est un logiciel de gestion de versions décentralisé.<br>
-                                GitHub est un service web d’hébergement utilisant Git<br>
-                                Pour plus de détails, rendez-vous sur <a href="/pages/competences/outils-de-versioning-git-et-github.php" target="_blank">la page dédiée</a> que j'ai créé.
+                            <p class="text-justify">
+                                Git est un logiciel de gestion de versions décentralisé.<br>
+                                GitHub est un service web d’hébergement utilisant Git.<br>
+                                Pour plus de détails, rendez-vous sur la page que j'ai créé dédiée à ce sujet : <a href="/pages/competences/outils-de-versioning-git-et-github.php" target="_blank">Outils de versioning : Git et GitHub</a>
                             </p>
                             <div class="article-image text-center">
                                 <a href="/img/projets/gsb-frais/07-github-premer-commit.png" target="_blank"><img class="img-thumbnail" src="/img/projets/gsb-frais/07-github-premer-commit.png" alt="Premier commit sur GitHub"></a>
                                 <a href="/img/projets/gsb-frais/07-github-premer-commit.png" target="_blank">
                                     <p class="text-center">Premier commit sur GitHub</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="article-image text-center">
+                                <a href="/img/projets/gsb-frais/06-netbeans-git-outils.png" target="_blank">
+                                    <img class="img-thumbnail" src="/img/projets/gsb-frais/06-netbeans-git-outils.png" alt="Outils liés à Git sur NetBeans">
+                                </a>
+                                <a href="/img/projets/gsb-frais/06-netbeans-git-outils.png" target="_blank">
+                                    <p class="text-center">Outils liés à Git sur NetBeans</p>
                                 </a>
                             </div>
                         </div>
@@ -199,7 +213,22 @@ require '../../inc/header.php';
                 </div>
             </div>
             <div class="mb-5">
-                <h3 id="item-7">Conclusion</h3>
+                <h3 id="item-7">Description de la mise en production</h3>
+                <p class="text-justify">Pour rendre cette application disponible en ligne, voici les différentes manipulations effectuées : </p>
+                <ol>
+                    <li>Ajout d'un sous domaine "gsb.ostyl.fr" ayant un dossier racine différent de celui de mon nom de domaine principal "ostyl.fr".</li>
+                    <li>Régénération du certificat SSL pour disposer d'une connection sécurisés sur le sous domaine "gsb".</li>
+                    <li>Modification des informations de connexion à la base de données dans les fichiers includes/class.pdogsb.inc.php et tests/gendatas/majGSB.php.</li>
+                    <li>Copie des dossiers et fichiers vers le répertoire "gsb", via le logiciel FileZilla.</li>
+                    <li>Modification du fichier SQL avant l'import : suppression de la partie "Administration de la base de données", qui est utile en local uniquement.</li>
+                    <li>Création d'une nouvelle base de données liée à mon hébergement web.</li>
+                    <li>Import de la base de données via phpMyAdmin.</li>
+                    <li>Lancement du script tests/gendatas/majGSB.php permettant de générer des données fictives dans la base, puis suppression du dossier tests, afin que ce script ne soit pas malencontreusement à nouveau exécuté.</li>
+                    <li>Création d'un fichier .htaccess permettant de rediriger automatiquement les utilisateurs vers le "https", et qui empêche l'accès aux répertoires et fichiers qui pourraient compromettre la sécurité de l'application.</li>
+                </ol>
+            </div>
+            <div class="mb-5">
+                <h3 id="item-8">Conclusion</h3>
                 <p class="text-justify">
                     Grâce à ce projet, je me suis rendu compte de l'importance de travailler sur un IDE avec des extentions comme Xdebug qui permettent de déboguer le code de manière efficace.<br>
                     J'ai également pris conscience de la praticité de l'architecture MVC dans le développement web. Ce pattron de conception permet de mieux s'y retrouver, les fichiers sont bien organisés dans différents répertoires correspondant aux différentes parties logiques.
@@ -215,7 +244,8 @@ require '../../inc/header.php';
                     <a class="nav-link" href="#item-4">Import et modifications de la base de données</a>
                     <a class="nav-link" href="#item-5">Utilisation de Xdebug</a>
                     <a class="nav-link" href="#item-6">Projet respectant l'architecture MVC</a>
-                    <a class="nav-link" href="#item-7">Conclusion</a>
+                    <a class="nav-link" href="#item-7">Description de la mise en production</a>
+                    <a class="nav-link" href="#item-8">Conclusion</a>
                 </nav>
             </nav>
         </div>
