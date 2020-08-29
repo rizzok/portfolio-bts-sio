@@ -32,7 +32,7 @@ require '../inc/header.php';
                     <div class="card-footer">
                         <h3 class="card-title">PPE : GSB frais</h3>
                         <p class="card-text">Application web codée en PHP avec l'IDE NetBeans</p>
-                        <a href="#" class="btn btn-primary">Voir la page du projet</a>
+                        <a href="/pages/projets/gsb-frais.php" class="btn btn-primary">Voir la page du projet</a>
                     </div>
                 </div>
                 <div class="card my-5">

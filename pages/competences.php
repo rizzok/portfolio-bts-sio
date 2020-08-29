@@ -24,7 +24,6 @@ require '../inc/header.php';
                         <h2>Mes principales compétences</h2>
                         <p>Acquises lors de mon parcours professionnel et de ma formation au CNED</p>
                     </div>
-                    <!-- A FAIRE - intégrer les progressbars en relation, faites sur la page profil, avec le niveau de compétences acquis dans chaque techno -->
                     <div class="card mb-5">
                         <a href="#">
                             <img src="/img/competences/web-languages-w.jpg" class="card-img-top" alt="Languages de programmation web">
@@ -74,7 +73,6 @@ require '../inc/header.php';
                     </div>
                 </div>
                 <div class="col-lg-8 m-auto text-center">
-                    <!-- AJOUTER lien vers tableau des compétences -->
                     <div class="my-5 border rounded p-4">
                         <h2 class="h4">Mon tableau de synthèse pour le BTS SIO SLAM</h2>
                         <a href="#" class="btn btn-primary mt-3">Afficher le tableau de synthèse</a>

@@ -1,5 +1,4 @@
     </main>
-    
     <footer class="mt-auto py-5">
         <div class="container">
             <div class="row">
@@ -14,8 +13,6 @@
             </div>
         </div>
     </footer>
-
-
     <!-- SCRIPTS START -->
     <!-- jQuery -->
     <script src="/js/jquery-3.4.1.min.js"></script>
@@ -27,5 +24,4 @@
     <script type="text/javascript" src="/js/script.js"></script>
     <!-- SCRIPTS END -->
 </body>
-
 </html>
