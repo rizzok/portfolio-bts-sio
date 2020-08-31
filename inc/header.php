@@ -19,12 +19,12 @@
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="<?= $page_description ?>">
-    <meta name="keywords" content="portfolio, cv, programmeur, developpeur, kevin, rizzo, kevin rizzo, bts, sio, slam, logiciel, application, web">
-    <meta name="author" content="kevin">
+    <meta name="description" content="<?= $page_description ?? 'Kévin RIZZO - Étudiant en BTS SIO SLAM' ?>">
+    <meta name="keywords" content="portfolio, cv, programmeur, developpeur, kevin, rizzo, bts, sio, slam, logiciel, software, application, web">
+    <meta name="author" content="rizzok">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-    <title><?= $page_title ?></title>
+    <title><?= $page_title ?? 'Portfolio de Kévin RIZZO | BTS SIO option SLAM' ?></title>
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap-411/bootstrap.min.css" rel="stylesheet">
     <!-- Black to top icon -->
