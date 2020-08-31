@@ -30,8 +30,9 @@ require '../../inc/header.php';
                 <p>L'application est accessible à l'adresse suivante : <a href="https://gsb.ostyl.fr/" target="_blank">https://gsb.ostyl.fr/</a></p>
                 <ul>
                     <li><a href="https://github.com/rizzok/gsb-frais" target="_blank">Code source</a> (GitHub repository)</li>
-                    <li><a href="https://phpmyadmin.cluster026.hosting.ovh.net/">Base de données du projet en ligne</a> (phpMyAdmin)</li>
-                    <li><a href="https://github.com/rizzok/gsb-frais/tree/master/bdd" target="_blank">Base de données</a> (fichier SQL et instructions d'installation en local)</li>
+                    <li><a href="https://phpmyadmin.cluster026.hosting.ovh.net/">Accès à la base de données du projet en ligne</a> (phpMyAdmin)</li>
+                    <li><a href="https://github.com/rizzok/gsb-frais/tree/master/bdd" target="_blank">Base de données pour installation en local</a> (fichier SQL et instructions d'installation en local)</li>
+                    <li><a href="https://gsb.ostyl.fr/doc/index.html" target="_blank">Documentation technique</a> (générée avec phpDocumentor)</li>
                 </ul>
                 <p>Documents fournis : </p>
                 <ul>
