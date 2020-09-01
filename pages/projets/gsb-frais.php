@@ -214,7 +214,22 @@ require '../../inc/header.php';
                 </div>
             </div>
             <div class="mb-5">
-                <h3 id="item-7">Description de la mise en production</h3>
+                <h3 id="item-7">Intallation du phpUnit et réalisation de tests</h3>
+                <p class="text-justify">Initialisation de composer et installation de phpUnit : </p>
+                <div class="article-image text-center mb-4">
+                    <a href="/img/projets/gsb-frais/01-gsb-frais-phpunit-install.png" target="_blank"><img class="img-thumbnail" src="/img/projets/gsb-frais/01-gsb-frais-phpunit-install.png" alt="installation de phpUnit"></a>
+                </div>
+                <p class="text-justify">Réalisation de tests sur la classe PdoGsb : </p>
+                <div class="article-image text-center mb-4">
+                    <a href="/img/projets/gsb-frais/03-codage-tests.png" target="_blank"><img class="img-thumbnail" src="/img/projets/gsb-frais/03-codage-tests.png" alt="Codage des tests"></a>
+                </div>
+                <p class="text-justify">Affichage des résultats : </p>
+                <div class="article-image text-center mb-4">
+                    <a href="/img/projets/gsb-frais/04-resultats-tests.png" target="_blank"><img class="img-thumbnail" src="/img/projets/gsb-frais/04-resultats-tests.png" alt="Résultats des tests"></a>
+                </div>
+            </div>
+            <div class="mb-5">
+                <h3 id="item-8">Description de la mise en production</h3>
                 <p class="text-justify">Pour rendre cette application disponible en ligne, voici les différentes manipulations effectuées : </p>
                 <ol>
                     <li>Ajout d'un sous domaine "gsb.ostyl.fr" ayant un dossier racine différent de celui de mon nom de domaine principal "ostyl.fr".</li>
@@ -222,14 +237,14 @@ require '../../inc/header.php';
                     <li>Modification des informations de connexion à la base de données dans les fichiers includes/class.pdogsb.inc.php et tests/gendatas/majGSB.php.</li>
                     <li>Copie des dossiers et fichiers vers le répertoire "gsb", via le logiciel FileZilla.</li>
                     <li>Modification du fichier SQL avant l'import : suppression de la partie "Administration de la base de données", qui est utile en local uniquement.</li>
-                    <li>Création d'une nouvelle base de données liée à mon hébergement web.</li>
+                    <li>Création d'une nouvelle base de données liée à l'hébergement web.</li>
                     <li>Import de la base de données via phpMyAdmin.</li>
-                    <li>Lancement du script tests/gendatas/majGSB.php permettant de générer des données fictives dans la base, puis suppression du dossier tests, afin que ce script ne soit pas malencontreusement à nouveau exécuté.</li>
-                    <li>Création d'un fichier .htaccess permettant de rediriger automatiquement les utilisateurs vers le "https", et qui empêche l'accès aux répertoires et fichiers qui pourraient compromettre la sécurité de l'application.</li>
+                    <li>Lancement du script gendatas/majGSB.php permettant de générer des données fictives dans la base, puis suppression du dossier gendatas, afin que ce script ne soit pas exécuté à nouveau.</li>
+                    <li>Création d'un fichier .htaccess permettant de rediriger automatiquement les utilisateurs vers le "https", et empêche l'accès aux répertoires et fichiers qui pourraient compromettre la sécurité de l'application.</li>
                 </ol>
             </div>
             <div class="mb-5">
-                <h3 id="item-8">Conclusion</h3>
+                <h3 id="item-9">Conclusion</h3>
                 <p class="text-justify">
                     Grâce à ce projet, je me suis rendu compte de l'importance de travailler sur un IDE avec des extentions comme Xdebug qui permettent de déboguer le code de manière efficace.<br>
                     J'ai également pris conscience de la praticité de l'architecture MVC dans le développement web. Ce pattron de conception permet de mieux s'y retrouver, les fichiers sont bien organisés dans différents répertoires correspondant aux différentes parties logiques.
@@ -245,8 +260,9 @@ require '../../inc/header.php';
                     <a class="nav-link" href="#item-4">Import et modifications de la base de données</a>
                     <a class="nav-link" href="#item-5">Utilisation de Xdebug</a>
                     <a class="nav-link" href="#item-6">Projet respectant l'architecture MVC</a>
-                    <a class="nav-link" href="#item-7">Description de la mise en production</a>
-                    <a class="nav-link" href="#item-8">Conclusion</a>
+                    <a class="nav-link" href="#item-7">Intallation du phpUnit et réalisation de tests</a>
+                    <a class="nav-link" href="#item-8">Description de la mise en production</a>
+                    <a class="nav-link" href="#item-9">Conclusion</a>
                 </nav>
             </nav>
         </div>
