@@ -151,8 +151,8 @@ require '../../inc/header.php';
                     </a>
                 </div>
                 <p class="text-justify">
-                    Pour pouvoir répondre aux besoins du cahier des charges et au différents cas d'utilisation décrits, j'ai ajouté un champ booléen "estcomptable" à la table "visiteur", qui est à 0 (faux) si l'utilisateur est un visiteur et à 1 (vrai) si c'est est un comptable.<br>
-                    Et ajouté de 2 nouvelles lignes à la table "visiteur". Ces lignes correspondent à l'ajout de 2 comptables, la valeur "estcomptable" est donc à 1 (true).
+                    Pour pouvoir répondre aux besoins du cahier des charges et au différents cas d'utilisation décrits, j'ai renommé la table "visiteur" en "utilisateur" et j'y ai ajouté un champ booléen "estcomptable", qui est à 0 (faux) si l'utilisateur est un visiteur et à 1 (vrai) si c'est est un comptable.<br>
+                    J'ai ensuite ajouté de 2 nouvelles lignes à la table "utilisateur", qui correspondent à l'ajout de 2 comptables, la valeur "estcomptable" est donc à 1 (true).
                 </p>
                 <p class="text-justify">
                     J'ai également ajouté à la table "etat", une ligne ayant les valeurs suivantes : <br>
@@ -246,8 +246,8 @@ require '../../inc/header.php';
             <div class="mb-5">
                 <h3 id="item-9">Conclusion</h3>
                 <p class="text-justify">
-                    Grâce à ce projet, je me suis rendu compte de l'importance de travailler sur un IDE avec des extentions comme Xdebug qui permettent de déboguer le code de manière efficace.<br>
-                    J'ai également pris conscience de la praticité de l'architecture MVC dans le développement web. Ce pattron de conception permet de mieux s'y retrouver, les fichiers sont bien organisés dans différents répertoires correspondant aux différentes parties logiques.
+                    Grâce à ce projet, je me suis rendu compte de l'importance de travailler sur un IDE avec des extensions comme Xdebug qui permettent de déboguer le code de manière efficace.<br>
+                    J'ai également pris conscience de la praticité de l'architecture MVC dans le développement web. Ce patron de conception permet de mieux s'y retrouver, les fichiers sont bien organisés dans différents répertoires correspondant aux différentes parties logiques.
                 </p>
             </div>
         </div>
