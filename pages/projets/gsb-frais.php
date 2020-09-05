@@ -22,6 +22,7 @@ require '../../inc/header.php';
     <div class="row">
         <div class="col-xl-9">
             <h2 class="text-center">PPE : GSB frais</h2>
+            <p class="text-center">APPLICATION WEB PHP</p>
             <div class="text-center">
                 <img src="/img/projets/gsb-frais/gsb-logo.png" class="w-25 m-3" alt="Logo GSB">
             </div>
@@ -29,16 +30,31 @@ require '../../inc/header.php';
                 <h3 id="item-1">Ressources et documents du projet</h3>
                 <p>L'application est accessible à l'adresse suivante : <a href="https://gsb.ostyl.fr/" target="_blank">https://gsb.ostyl.fr/</a></p>
                 <ul>
-                    <li><a href="https://github.com/rizzok/gsb-frais" target="_blank">Code source</a> (GitHub repository)</li>
+                    <li><a href="/pages/projets/gsb-frais/e4-fiche-gsb-frais-woid.pdf" target="_blank">Fiche de situation professionelle</a> (PDF)</li>
+                    <li><a href="/pages/projets/gsb-frais/compte-rendu-gsb-frais.pdf" target="_blank">Compte rendu du projet</a> (PDF)</li>
+                    <li><a href="https://github.com/rizzok/GsbFrais" target="_blank">Code source</a> (GitHub repository)</li>
                     <li><a href="https://phpmyadmin.cluster026.hosting.ovh.net/" target="_blank">Accès à la base de données du projet en ligne</a> (phpMyAdmin)</li>
-                    <li><a href="https://github.com/rizzok/gsb-frais/tree/master/bdd" target="_blank">Base de données pour installation en local</a> (fichier SQL et instructions d'installation en local)</li>
+                    <li><a href="https://github.com/rizzok/GsbFrais/tree/master/bdd" target="_blank">Base de données pour installation en local</a> (fichier SQL et instructions d'installation)</li>
                     <li><a href="https://gsb.ostyl.fr/doc/index.html" target="_blank">Documentation technique</a> (générée avec phpDocumentor)</li>
                 </ul>
-                <p>Documents fournis : </p>
+                <p>Ressources fournies : </p>
                 <ul>
-                    <li><a href="/pages/projets/gsb-frais/gsb-organisation.docx">Contexte de l'entreprise GSB</a> (fichier Word)</li>
-                    <li><a href="/pages/projets/gsb-frais/gsb-frais-cahier-des-charges.doc">Cahier des charges</a> (fichier Word)</li>
-                    <li><a href="/pages/projets/gsb-frais/gsb-frais-code-et-bdd-fournis.zip">Code et base de données fournis</a> (fichier .zip)</li>
+                    <li><a href="/pages/projets/gsb-frais/gsb-organisation.docx" target="_blank">Contexte de l'entreprise GSB</a> (fichier Word)</li>
+                    <li><a href="/pages/projets/gsb-frais/gsb-frais-cahier-des-charges.doc" target="_blank">Cahier des charges</a> (fichier Word)</li>
+                    <li><a href="/pages/projets/gsb-frais/gsb-frais-code-et-bdd-fournis.zip" target="_blank">Code et base de données fournis</a> (fichier .zip)</li>
+                </ul>
+                <p>Compétences associées</p>
+                <ul>
+                    <li>A1.1.1 , Analyse du cahier des charges d’un service à produire</li>
+                    <li>A1.2.1 , Élaboration et présentation d’un dossier de choix de solution technique</li>
+                    <li>A1.2.2 , Rédaction des spécifications techniques de la solution retenue</li>
+                    <li>A1.4.1 , Participation à un projet</li>
+                    <li>A2.3.2 , Proposition d’amélioration d’un service</li>
+                    <li>A4.1.2 , Conception ou adaptation de l'interface utilisateur d'une solution applicative</li>
+                    <li>A4.1.3 , Conception ou adaptation d’une base de données</li>
+                    <li>A4.1.6 , Gestion des environnements de développement et de test</li>
+                    <li>A4.1.8 , Réalisation des tests nécessaires à la validation d’éléments adaptés ou développés</li>
+                    <li>A4.2.3 , Réalisation des tests nécessaires à la mise en production d'éléments mis à jour</li>
                 </ul>
             </div>
             <div class="mb-5">

@@ -19,8 +19,21 @@ require '../inc/header.php';
         </div>
 		<div class="container">
 			<div class="row">
+                <div class="col-lg-8 m-auto text-center">
+                    <div class="my-4 border rounded p-4">
+                        <h2 class="h4">Tableau de synthèse pour le BTS</h2>
+                        <div class="text-center mt-3">
+                            <a href="/pages/competences/tableau-de-synthese-rizzo-kevin-A3.pdf" download="Tableau de synthèse RIZZO Kévin -  BTS SIO SLAM.pdf" class="button-icon-link">
+                                <button type="button" class="btn btn-outline-primary mx-3">Télécharger</button>
+                                <span style="color: red; vertical-align: middle;">
+                                    <i class="far fa-file-pdf fa-2x"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 				<div class="col-lg-9 m-auto text-center">
-                    <div class="my-5">
+                    <div class="mb-5">
                         <h2>Mes principales compétences</h2>
                         <p>Acquises lors de mon parcours professionnel et de ma formation au CNED</p>
                     </div>
@@ -59,7 +72,7 @@ require '../inc/header.php';
                     <div class="mb-4">
                         <h2>Autres compétences informatiques</h2>
                     </div>
-                    <div>
+                    <div class="mb-5">
                         <ul>
                             <li>Gestion de bases de données</li>
                             <li>Architecture MVC (Modèle – Vue – Contrôleur)</li>
@@ -70,12 +83,6 @@ require '../inc/header.php';
                             <li>Référencement et campagnes web : SEO, SEA, SMO</li>
                             <li>Création graphique</li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-lg-8 m-auto text-center">
-                    <div class="my-5 border rounded p-4">
-                        <h2 class="h4">Mon tableau de synthèse pour le BTS SIO SLAM</h2>
-                        <a href="#" class="btn btn-primary mt-3">Afficher le tableau de synthèse</a>
                     </div>
                 </div>
             </div>

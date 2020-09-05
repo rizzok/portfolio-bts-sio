@@ -31,6 +31,8 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="/css/style.css" rel="stylesheet" >
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/fafd7398ca.js" crossorigin="anonymous"></script>
 </head>
 <body class="d-flex flex-column h-100">
     <!-- Google Tag Manager (noscript) -->

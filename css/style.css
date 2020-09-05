@@ -21,6 +21,10 @@ a:hover {
   color: #0274B3;
 }
 
+.button-icon-link:hover {
+  text-decoration: none;
+}
+
 .btn-primary {
   background-color: #0274B3;
   border-color: #0274B3;

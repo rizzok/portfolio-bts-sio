@@ -32,7 +32,7 @@ require '../inc/header.php';
                     <div class="card-footer">
                         <h3 class="card-title">PPE : GSB frais</h3>
                         <p class="card-text">Application web codée en PHP avec l'IDE NetBeans</p>
-                        <a href="/pages/projets/gsb-frais.php" class="btn btn-primary">Voir la page du projet</a>
+                        <a href="/pages/projets/gsb-frais.php" class="btn btn-primary" role="button">Voir le compte rendu du projet</a>
                     </div>
                 </div>
                 <div class="card my-5">
@@ -40,7 +40,7 @@ require '../inc/header.php';
                     <div class="card-footer">
                         <h3 class="card-title">PPE : GSB gestion de la clôture</h3>
                         <p class="card-text">Service Windows créé en C# avec l'IDE Visual Studio</p>
-                        <a href="#" class="btn btn-primary">Voir la page du projet</a>
+                        <a href="/pages/projets/gsb-gestion-cloture.php" class="btn btn-primary">Voir le compte rendu du projet</a>
                     </div>
                 </div>
                 <hr>
@@ -123,8 +123,6 @@ require '../inc/header.php';
         </div>
         <hr>
     </div>
-
-
     <div id="projets-personnels" class="container">
         <div class="row">
             <div class="col-lg-9 m-auto">
@@ -141,7 +139,7 @@ require '../inc/header.php';
                     </div>
                     <div class="card-footer border-top">
                         <h3 class="h5 card-title">Projets Android</h3>
-                        <p class="card-text">Developpement mobile Android en Java sur Androis Studio</p>
+                        <p class="card-text">Developpement mobile Android en Java sur Android Studio</p>
                     </div>
                 </div>
             </div>
