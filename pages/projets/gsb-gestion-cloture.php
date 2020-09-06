@@ -36,7 +36,7 @@ require '../../inc/header.php';
                     <li><a href="https://github.com/rizzok/GsbGestionCloture" target="_blank">Code source</a> (GitHub repository)</li>
                     <li><a href="https://github.com/rizzok/GsbFrais/tree/master/bdd" target="_blank">Base de données</a> (fichier .sql et instructions d'installation en local)</li>
                     <li><a href="https://gsb.ostyl.fr/service-doc/api/GsbGestionClotureService.html" target="_blank">Documentation technique</a></li>
-                    <li><a href="#" target="_blank">Compte rendu du projet</a> (PDF)</li>
+                    <li><a href="/pages/projets/gsb-gestion-cloture/compte-rendu-gsb-gestion-cloture.pdf" target="_blank">Compte rendu du projet</a> (PDF)</li>
                 </ul>
                 <p>Ressources fournies : </p>
                 <ul>
