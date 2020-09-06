@@ -32,12 +32,11 @@ require '../../inc/header.php';
                 <h3 id="item-1">Ressources et documents du projet</h3>
                 <ul>
                     <li><a href="/pages/projets/gsb-gestion-cloture/e4-fiche-gsb-gestion-de-la-cloture.pdf" target="_blank">Fiche de situation professionelle</a> (PDF)</li>
-                    <!-- TODO -->
-                    <li><a href="#" target="_blank">Compte rendu du projet</a> (PDF)</li>
+                    <li><a href="https://github.com/rizzok/GsbGestionCloture/tree/master/Installation%20du%20service" target="_blank">Archive contenant l'exécutable et instructions d'installation</a> (sur GitHub)</li>
                     <li><a href="https://github.com/rizzok/GsbGestionCloture" target="_blank">Code source</a> (GitHub repository)</li>
                     <li><a href="https://github.com/rizzok/GsbFrais/tree/master/bdd" target="_blank">Base de données</a> (fichier .sql et instructions d'installation en local)</li>
-                    <!-- TODO \\Ds920\dev\BTS\gsb-gestionCloture -->
-                    <li><a href="#" target="_blank">Documentation technique</a> (générée avec DocFX)</li>
+                    <li><a href="https://gsb.ostyl.fr/service-doc/api/GsbGestionClotureService.html" target="_blank">Documentation technique</a></li>
+                    <li><a href="#" target="_blank">Compte rendu du projet</a> (PDF)</li>
                 </ul>
                 <p>Ressources fournies : </p>
                 <ul>
