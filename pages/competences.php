@@ -35,7 +35,7 @@ require '../inc/header.php';
 				<div class="col-lg-9 m-auto text-center">
                     <div class="mb-5">
                         <h2>Mes principales compétences</h2>
-                        <p>Acquises lors de mon parcours professionnel et de ma formation au CNED</p>
+                        <p>Acquises lors de mon parcours professionnel et de ma formation via le CNED</p>
                     </div>
                     <div class="card mb-5">
                         <a href="/pages/competences/developpement-web.php">
@@ -44,7 +44,7 @@ require '../inc/header.php';
                         <div class="card-footer">
                             <h3 class="card-title">Développement web</h2>
                             <p class="card-text">Création de sites en PHP/MySQL, HTML, CSS et JavaScript</p>
-                            <a href="/pages/competences/developpement-web.php" class="btn btn-primary">Afficher la page</a>
+                            <a href="/pages/competences/developpement-web.php" class="btn btn-primary mb-2">Afficher la page</a>
                         </div>
                     </div>
                     <div class="card mb-5">
@@ -54,7 +54,7 @@ require '../inc/header.php';
                         <div class="card-footer">
                             <h3 class="card-title">Outils de versioning : Git et GitHub</h2>
                             <p class="card-text">J’utilise les outils Git et GitHub pour la gestion des versions et le travail collaboratif.</p>
-                            <a href="/pages/competences/outils-de-versioning-git-et-github.php" class="btn btn-primary">Afficher la page</a>
+                            <a href="/pages/competences/outils-de-versioning-git-et-github.php" class="btn btn-primary mb-2">Afficher la page</a>
                         </div>
                     </div>
                     <div class="card mb-5">
@@ -64,7 +64,7 @@ require '../inc/header.php';
                         <div class="card-footer">
                             <h3 class="card-title">Développement d'applications</h2>
                             <p class="card-text">Programmation orientée objet desktop ou mobile en Java et C#</p>
-                            <a href="#" class="btn btn-primary">Afficher la page</a>
+                            <a href="#" class="btn btn-primary mb-2">Afficher la page</a>
                         </div>
                     </div>
                 </div>

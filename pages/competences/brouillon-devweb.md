@@ -37,7 +37,5 @@ Ce qui me plait dans le développement web
 - Installation d'un module pour la gestion du suivi des Colissimos et création d'un script qui permet d'automatiser la création d'un fichier avec les données utiles qui fait la liaison...
 
 
-
 - Mettre un lien vers les différentes documentations utilisateur que j'ai créé, en supprimant les mdp
 \\Ds920\documents\00 - TRAVAIL\Via Santé\mes-docs-via-sante\METHODES
-
