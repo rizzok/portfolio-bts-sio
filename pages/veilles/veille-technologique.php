@@ -1,9 +1,9 @@
 <?php
-$page_title = "Veilles - Portfolio de Kévin RIZZO | BTS SIO option SLAM";
-$page_description = "Veilles de Kévin RIZZO, étudiant en BTS SIO SLAM";
+$page_title = "Veille technologique - Portfolio de Kévin RIZZO | BTS SIO option SLAM";
+$page_description = "Veille technologique sur le cloud computing";
 $navbar_section = 'veilles';
 
-require '../inc/header.php';
+require '../../inc/header.php';
 ?>
 <div id="page-top-section" class="p-3 p-md-5 text-center">
     <p class="h1 display-4 font-weight-normal text-white">Veilles</p>
@@ -126,4 +126,4 @@ require '../inc/header.php';
         </div>
     </div>
 </div>
-<?php require '../inc/footer.php' ?>
+<?php require '../../inc/footer.php' ?>

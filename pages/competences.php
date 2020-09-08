@@ -57,7 +57,7 @@ require '../inc/header.php';
                             <a href="/pages/competences/outils-de-versioning-git-et-github.php" class="btn btn-primary mb-2">Afficher la page</a>
                         </div>
                     </div>
-                    <div class="card mb-5">
+                    <!-- <div class="card mb-5">
                         <a href="#">
                             <img src="/img/competences/intellij-idea-android-studio.png" class="card-img-top" alt="Programmation Java desktop et mobile">
                         </a>
@@ -66,7 +66,7 @@ require '../inc/header.php';
                             <p class="card-text">Programmation orientée objet desktop ou mobile en Java et C#</p>
                             <a href="#" class="btn btn-primary mb-2">Afficher la page</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-9 m-auto">
                     <div class="mb-4">
