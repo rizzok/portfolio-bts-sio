@@ -13,7 +13,8 @@ require '../../inc/header.php';
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/" class="breadcrumb-item-unactive">Accueil</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Veilles</li>
+                <li class="breadcrumb-item"><a href="/pages/veilles.php" class="breadcrumb-item-unactive">Veilles</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Veille technologique</li>
             </ol>
         </nav>
     </div>
@@ -29,7 +30,6 @@ require '../../inc/header.php';
             <div class="mb-5">
                 <h2 class="mb-3">Qu'est-ce que la veille technologique ?</h2>
                 <div class="m-3">
-                    <p class="text-justify">La veille technologique est une des catégories de veilles que peut mener une entreprise. Par exemple, une entreprise peut tout à fait exercer une veille commerciale, concurrentielle, marketing, environnementale, juridique, etc. L’objectif étant toujours le même : assurer un suivi de l’évolution du domaine concerné.</p>
                     <p class="text-justify">
                         La veille technologique est une veille spécifique, sa mise en place permet d’étudier l’évolution de sujets et secteurs en mutation permanente. Cette action permet ainsi à une entreprise de suivre le développement et l’apparition de nouvelles technologiques pouvant considérablement influer sur son activité.<br>
                         Elle permet également de rester en permanence informé lorsque l’entreprise évolue dans des contextes où les usages et les nouveaux acteurs changent souvent.
