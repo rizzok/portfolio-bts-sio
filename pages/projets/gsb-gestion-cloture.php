@@ -31,8 +31,8 @@ require '../../inc/header.php';
             <div class="mt-3 mb-5">
                 <h3 id="item-1">Ressources et documents du projet</h3>
                 <ul>
-                    <li><a href="/pages/projets/gsb-gestion-cloture/e4-fiche-gsb-gestion-de-la-cloture.pdf" target="_blank">Fiche de situation professionelle</a> (PDF)</li>
-                    <li><a href="https://github.com/rizzok/GsbGestionCloture/tree/master/Installation%20du%20service" target="_blank">Archive contenant l'exécutable et instructions d'installation</a> (sur GitHub)</li>
+                    <li><a href="/pages/projets/gsb-gestion-cloture/e4-fiche-gsb-gestion-de-la-cloture.pdf" target="_blank">Fiche de situation professionnelle</a> (PDF)</li>
+                    <li><a href="https://github.com/rizzok/GsbGestionCloture/tree/master/Installation%20du%20service" target="_blank">Archive contenant l'exécutable et les instructions d'installation</a> (sur GitHub)</li>
                     <li><a href="https://github.com/rizzok/GsbGestionCloture" target="_blank">Code source</a> (GitHub repository)</li>
                     <li><a href="https://github.com/rizzok/GsbFrais/tree/master/bdd" target="_blank">Base de données</a> (fichier .sql et instructions d'installation en local)</li>
                     <li><a href="https://gsb.ostyl.fr/service-doc/api/GsbGestionClotureService.html" target="_blank">Documentation technique</a></li>
@@ -57,7 +57,7 @@ require '../../inc/header.php';
             <div class="mb-5">
                 <h3 id="item-2">Présentation du projet</h3>
                 <div class="m-3">
-                    <h4>Contexte de la situation professionelle et description du besoin</h4>
+                    <h4>Contexte de la situation professionnelle et description du besoin</h4>
                     <p class="text-justify">Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy et le conglomérat européen Swiss Bourdin. Après avoir fait évoluer l'application web du laboratoire, servant pour la gestion de frais des visiteurs médicaux par les comptables, il faut intégrer un service mettant à jour l'état des fiches de manière automatique.</p>
                 </div>
                 <div class="m-3">
@@ -93,8 +93,8 @@ require '../../inc/header.php';
             <div class="mb-5">
                 <h3 id="item-4">Classe d'accès aux données</h3>
                 <p class="text-justify">
-                    Création de la classe DataAccess qui est utile à l'accès et la modification des données d'un base MySQL. <br>
-                    Le constructeur de cette classe instancie la classe MySqlConnection, permettant de gérer une connexion à un serveur MySQL. La classe DataAccess contient des méthodes qui permettent le lecture, la modification, la mise à jour et la suppression de données. <br>
+                    Création de la classe DataAccess qui est utile à l'accès et la modification des données d'une base MySQL. <br>
+                    Le constructeur de cette classe instancie la classe MySqlConnection, permettant de gérer une connexion à un serveur MySQL. La classe DataAccess contient des méthodes qui permettent la lecture, la modification, la mise à jour et la suppression de données. <br>
                     Cette classe est réutilisable, elle a été conçue pour pouvoir être importée dans d'autres projets en relation avec une base de données MySQL.
                 </p>
             </div>
@@ -109,7 +109,7 @@ require '../../inc/header.php';
                 <h3 id="item-6">Réalisation de tests unitaires</h3>
                 <p class="text-justify mb-4">
                     Ajout d'un nouveau projet NUnit à la solution, pour la réalisation de tests unitaires sur les méthodes de la classe DateGestion. <br>
-                    La plupart des tests comportent plusieurs assertions afin de pourvoir tester différents cas de figure.
+                    La plupart des tests comportent plusieurs assertions afin de pouvoir tester différents cas de figure.
                 </p>
                 <div class="article-image text-center mb-4">
                     <a href="/img/projets/gsb-gestion-cloture/03-creation-projet-tests-nunit.png" target="_blank"><img class="img-thumbnail" src="/img/projets/gsb-gestion-cloture/03-creation-projet-tests-nunit.png" alt="Création du projet NUnit"></a>
@@ -134,7 +134,7 @@ require '../../inc/header.php';
                 <h3 id="item-7">Classe de gestion du Timer et des requêtes SQL</h3>
                 <p class="text-justify">
                     Elle sert d'intermédiaire entre les classes d'accès aux données / de gestion des dates, et le "Main" qui est la fonction principale du programme. La classe GestionCloture instancie la classe "Timer" permettant de définir un intervalle de temps, qui lance automatiquement une méthode, et qui est donc utile dans le cadre du déploiement d'un service. <br>
-                    Lorsque l'intervalle de temps défini est atteint, le "Timer" exécute une méthode qui à pour but de se connecter à la base de données MySQL et, selon la date du jour, envoie les requêtes mettant à jour l'état de fiches de frais.
+                    Lorsque l'intervalle de temps défini est atteint, le "Timer" exécute une méthode. Cette méthode a pour but de se connecter à la base de données MySQL et, selon la date du jour, envoie les requêtes mettant à jour l'état de fiches de frais.
                 </p>
             </div>
             <div class="mb-5">
@@ -150,7 +150,7 @@ require '../../inc/header.php';
                     </a>
                 </div>
                 <p class="text-justify mb-4">
-                    Codage du Main (fonction principale du programme), qui instancie la classe HostFatory, fait appel à la classe GestionCloture et défini les différents paramètres du service Windows. <br>
+                    Codage du Main (fonction principale du programme), qui instancie la classe HostFatory, fait appel à la classe GestionCloture et définit les différents paramètres du service Windows. <br>
                     Création de l'exécutable et installation du service en ligne de commande, via la commande suivante : <br>
                     <kbd>GsbGestionClotureService.exe install start</kbd>
                 </p>
@@ -171,7 +171,7 @@ require '../../inc/header.php';
                 <h3 id="item-9">Conclusion</h3>
                 <p class="text-justify">
                     Ce projet m'a permis de découvrir la création d'un service Windows et de me familiariser avec la création de classes et de tests unitaires. <br>
-                    La création et le déploiement d'un tel service, automatisant des tâches répétitives, peut permettre à une entreprise de gagner en productivité.
+                    La création et le déploiement d'un tel service, automatisant des tâches répétitives, peuvent permettre à une entreprise de gagner en productivité.
                 </p>
             </div>
         </div>
@@ -179,13 +179,21 @@ require '../../inc/header.php';
             <nav class="navbar navbar-light bg-light">
                 <nav class="nav nav-pills flex-column mx-auto">
                     <a class="nav-link" href="#item-1">Ressources et documents du projet</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-2">Présentation du projet</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-3">Préparation du projet</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-4">Classe d'accès aux données</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-5">Classe de gestion des dates</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-6">Réalisation de tests unitaires</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-7">Classe de gestion du Timer et des requêtes SQL</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-8">Création et installation du service Windows</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-9">Conclusion</a>
                 </nav>
             </nav>

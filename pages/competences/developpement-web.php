@@ -200,7 +200,6 @@ require '../../inc/header.php';
                     <div class="article-image text-center mt-2 mb-3">
                         <a href="/img/competences/developpement-web/ssb-prix-masque.png" target="_blank"><img class="img-thumbnail" src="/img/competences/developpement-web/ssb-prix-masque.png" alt="Affichage fiche produit site pro"></a>
                     </div>
-                    <!-- ----------- AJOUTER CAPTURE OU LIEN VERS CODE ------------ -->
                     <li>Pour s'inscrire, un professionnel doit d'abord remplir le formulaire d'inscription, puis attendre de se faire accepter par un administrateur.</li>
                     <li>La vente ne peut se faire que par lot de produit. Le nombre d'unités par cartons est précisé sur chaque fiche produit et le prix est calculé en fonction des lots, en hors taxe, car destiné aux professionnels.</li>
                 </ul>

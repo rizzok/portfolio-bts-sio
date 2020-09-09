@@ -30,7 +30,7 @@ require '../../inc/header.php';
                 <h3 id="item-1">Ressources et documents du projet</h3>
                 <p>L'application est accessible à l'adresse suivante : <a href="https://gsb.ostyl.fr/" target="_blank">https://gsb.ostyl.fr/</a></p>
                 <ul>
-                    <li><a href="/pages/projets/gsb-frais/e4-fiche-gsb-frais-woid.pdf" target="_blank">Fiche de situation professionelle</a> (PDF)</li>
+                    <li><a href="/pages/projets/gsb-frais/e4-fiche-gsb-frais-woid.pdf" target="_blank">Fiche de situation professionnelle</a> (PDF)</li>
                     <li><a href="/pages/projets/gsb-frais/compte-rendu-gsb-frais.pdf" target="_blank">Compte rendu du projet</a> (PDF)</li>
                     <li><a href="https://github.com/rizzok/GsbFrais" target="_blank">Code source</a> (GitHub repository)</li>
                     <li><a href="https://phpmyadmin.cluster026.hosting.ovh.net/" target="_blank">Accès à la base de données du projet en ligne</a> (phpMyAdmin)</li>
@@ -60,14 +60,14 @@ require '../../inc/header.php';
             <div class="mb-5">
                 <h3 id="item-2">Présentation du projet</h3>
                 <div class="m-3">
-                    <h4>Contexte de la situation professionelle</h4>
-                    <p class="text-justify">Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy (spécialisé dans le secteur des maladies virales dont le SIDA et les hépatites) et le conglomérat européen Swiss Bourdin (travaillant sur des médicaments plus conventionnels), lui-même déjà union de trois petits laboratoires.</p>
+                    <h4>Contexte de la situation professionnelle</h4>
+                    <p class="text-justify">Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy (spécialisé dans le secteur des maladies virales, dont le SIDA et les hépatites) et le conglomérat européen Swiss Bourdin (travaillant sur des médicaments plus conventionnels), lui-même déjà union de trois petits laboratoires.</p>
                 </div>
                 <div class="m-3">
                     <h4>Description du besoin</h4>
                     <p class="text-justify">Le suivi des frais est actuellement géré de plusieurs façons selon le laboratoire d'origine des visiteurs. On souhaite uniformiser cette gestion.
                         <br>
-                        L'application doit permettre d'enregistrer tout frais engagé, aussi bien pour l'activité directe (déplacement, restauration et hébergement) que pour les activités annexes (événementiel, conférences, autres), et de présenter un suivi daté des opérations menées par le service comptable (réception des pièces, validation de la demande de remboursement, mise en paiement, remboursement effectué).</p>
+                        L'application doit permettre d'enregistrer tous frais engagés, aussi bien pour l'activité directe (déplacement, restauration et hébergement) que pour les activités annexes (événementiel, conférences, autres), et de présenter un suivi daté des opérations menées par le service comptable (réception des pièces, validation de la demande de remboursement, mise en paiement, remboursement effectué).</p>
                 </div>
                 <div class="m-3">
                     <div class="row">
@@ -135,7 +135,7 @@ require '../../inc/header.php';
                             <p class="text-justify">
                                 Git est un logiciel de gestion de versions décentralisé.<br>
                                 GitHub est un service web d’hébergement utilisant Git.<br>
-                                Pour plus de détails, rendez-vous sur la page que j'ai créé dédiée à ce sujet : <a href="/pages/competences/outils-de-versioning-git-et-github.php" target="_blank">Outils de versioning : Git et GitHub</a>
+                                Pour plus de détails, rendez-vous sur la page que j'ai créée dédiée à ce sujet : <a href="/pages/competences/outils-de-versioning-git-et-github.php" target="_blank">Outils de versioning : Git et GitHub</a>
                             </p>
                             <div class="article-image text-center">
                                 <a href="/img/projets/gsb-frais/07-github-premer-commit.png" target="_blank"><img class="img-thumbnail" src="/img/projets/gsb-frais/07-github-premer-commit.png" alt="Premier commit sur GitHub"></a>
@@ -167,7 +167,7 @@ require '../../inc/header.php';
                     </a>
                 </div>
                 <p class="text-justify">
-                    Pour pouvoir répondre aux besoins du cahier des charges et au différents cas d'utilisation décrits, j'ai renommé la table "visiteur" en "utilisateur" et j'y ai ajouté un champ booléen "estcomptable", qui est à 0 (faux) si l'utilisateur est un visiteur et à 1 (vrai) si c'est est un comptable.<br>
+                    Pour pouvoir répondre aux besoins du cahier des charges et au différents cas d'utilisation décrits, j'ai renommé la table "visiteur" en "utilisateur" et j'y ai ajouté un champ booléen "estcomptable", qui est à 0 (faux) si l'utilisateur est un visiteur et à 1 (vrai) si c'est un comptable.<br>
                     J'ai ensuite ajouté de 2 nouvelles lignes à la table "utilisateur", qui correspondent à l'ajout de 2 comptables, la valeur "estcomptable" est donc à 1 (true).
                 </p>
                 <p class="text-justify">
@@ -194,7 +194,7 @@ require '../../inc/header.php';
                 <h3 id="item-5">Utilisation de Xdebug</h3>
                 <p class="text-justify">L'extension Xdebug apporte de nombreuses fonctions de débogage et de profilage, comme : </p>
                 <ul>
-                    <li>l'exécutions du code PHP pas à pas, </li>
+                    <li>l'exécution du code PHP pas-à-pas, </li>
                     <li>la visualisation des variables et leurs assignations à un moment donné, </li>
                     <li>les traces d'appels (stack trace en anglais) qui représentent les piles d'exécution, </li>
                     <li>ou encore le profilage du code (analyse de l'exécution du code afin de connaître son comportement).</li>
@@ -210,7 +210,7 @@ require '../../inc/header.php';
                 <h3 id="item-6">Projet respectant l'architecture MVC</h3>
                 <p class="text-justify">
                     Le projet de base est fourni en respectant l'architecture MVC ou Modèle-Vue-Contrôleur. J'ai donc pris soin de continuer à respecter ce modèle qui profite à l'organisation du projet parce qu'elle permet de séparer les fichiers dans des répertoires différents selon leur utilisation.<br>
-                    En effet, nous avons d'une part le(s) fichier(s) "modèle", qui contient les données et la logique en rapport avec les données : validation, lecture, enregistrement.<br>
+                    En effet, nous avons d'une part les fichiers "modèle", qui contiennent les données et la logique en rapport avec les données : validation, lecture, enregistrement.<br>
                     La "vue" correspond à la partie visible d'une interface graphique. Une vue contient des éléments visuels ainsi que la logique nécessaire pour afficher les données provenant du modèle.<br>
                     Le "contrôleur" est un module qui traite les actions de l'utilisateur et modifie les données du modèle et de la vue.
                 </p>
@@ -248,15 +248,15 @@ require '../../inc/header.php';
                 <h3 id="item-8">Description de la mise en production</h3>
                 <p class="text-justify">Pour rendre cette application disponible en ligne, voici les différentes manipulations effectuées : </p>
                 <ol>
-                    <li>Ajout d'un sous domaine "gsb.ostyl.fr" ayant un dossier racine différent de celui de mon nom de domaine principal "ostyl.fr".</li>
-                    <li>Régénération du certificat SSL pour disposer d'une connection sécurisés sur le sous domaine "gsb".</li>
+                    <li>Ajout d'un sous-domaine "gsb.ostyl.fr" ayant un dossier racine différent de celui de mon nom de domaine principal "ostyl.fr".</li>
+                    <li>Régénération du certificat SSL pour disposer d'une connexion sécurisée sur le sous-domaine "gsb".</li>
                     <li>Modification des informations de connexion à la base de données dans les fichiers includes/class.pdogsb.inc.php et tests/gendatas/majGSB.php.</li>
                     <li>Copie des dossiers et fichiers vers le répertoire "gsb", via le logiciel FileZilla.</li>
                     <li>Modification du fichier SQL avant l'import : suppression de la partie "Administration de la base de données", qui est utile en local uniquement.</li>
                     <li>Création d'une nouvelle base de données liée à l'hébergement web.</li>
                     <li>Import de la base de données via phpMyAdmin.</li>
                     <li>Lancement du script gendatas/majGSB.php permettant de générer des données fictives dans la base, puis suppression du dossier gendatas, afin que ce script ne soit pas exécuté à nouveau.</li>
-                    <li>Création d'un fichier .htaccess permettant de rediriger automatiquement les utilisateurs vers le "https", et empêche l'accès aux répertoires et fichiers qui pourraient compromettre la sécurité de l'application.</li>
+                    <li>Création d'un fichier .htaccess permettant de rediriger automatiquement les utilisateurs vers le "https", et interdit l'accès aux répertoires et fichiers qui pourraient compromettre la sécurité de l'application.</li>
                 </ol>
             </div>
             <div class="mb-5">
@@ -271,13 +271,21 @@ require '../../inc/header.php';
             <nav class="navbar navbar-light bg-light">
                 <nav class="nav nav-pills flex-column mx-auto">
                     <a class="nav-link" href="#item-1">Ressources et documents du projet</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-2">Présentation du projet</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-3">Préparation de l'environnement de développement</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-4">Import et modifications de la base de données</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-5">Utilisation de Xdebug</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-6">Projet respectant l'architecture MVC</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-7">Intallation du phpUnit et réalisation de tests</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-8">Description de la mise en production</a>
+                    <hr class="my-1">
                     <a class="nav-link" href="#item-9">Conclusion</a>
                 </nav>
             </nav>

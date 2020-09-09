@@ -22,13 +22,15 @@ require '../inc/header.php';
         <div class="row">
             <div class="col-lg-9 my-4 m-auto">
                 <h2 class="mb-4">PPE : Projets Personnels Encadrés</h2>
-                <p class="text-left">Le référentiel stipule : « Le futur titulaire du BTS services informatiques aux organisations doit tout au long de sa formation, se familiariser au travail en mode projet et avoir recours à des outils méthodologiques de suivi et d’évaluation de projets. Sa participation à des projets d’évolution de systèmes d’information permet de le placer dans un cadre finalisé, proche du réel, dans les conditions nécessaires à l’acquisition des compétences et de la professionnalité. »</p>
+                <p class="text-justify">Le référentiel stipule : « Le futur titulaire du BTS services informatiques aux organisations doit tout au long de sa formation, se familiariser au travail en mode projet et avoir recours à des outils méthodologiques de suivi et d’évaluation de projets. Sa participation à des projets d’évolution de systèmes d’information permet de le placer dans un cadre finalisé, proche du réel, dans les conditions nécessaires à l’acquisition des compétences et de la professionnalité. »</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-9 m-auto">
                 <div class="card my-5">
-                    <img src="/img/projets/php-netbeans-logos.png" class="card-img-top" alt="PHP NetBeans logos">
+                    <a href="/pages/projets/gsb-frais.php">
+                        <img src="/img/projets/php-netbeans-logos.png" class="card-img-top" alt="PHP NetBeans logos">
+                    </a>
                     <div class="card-footer">
                         <h3 class="card-title">PPE : GSB frais</h3>
                         <p class="card-text">Application web codée en PHP avec l'IDE NetBeans</p>
@@ -36,7 +38,9 @@ require '../inc/header.php';
                     </div>
                 </div>
                 <div class="card my-5">
-                    <img src="/img/projets/csharp-visualstudio-logos.png" class="card-img-top" alt="C# Visual Studio logos">
+                    <a href="/pages/projets/gsb-gestion-cloture.php">
+                        <img src="/img/projets/csharp-visualstudio-logos.png" class="card-img-top" alt="C# Visual Studio logos">
+                    </a>
                     <div class="card-footer">
                         <h3 class="card-title">PPE : GSB gestion de la clôture</h3>
                         <p class="card-text">Service Windows créé en C# avec l'IDE Visual Studio</p>
@@ -150,7 +154,7 @@ require '../inc/header.php';
                     </div>
                     <div class="card-footer border-top">
                         <h3 class="h5 card-title">Ce Portfolio</h3>
-                        <p class="card-text">Codé en PHP avec l'IDE NetBeans</p>
+                        <p class="card-text">Développé en PHP avec l'IDE NetBeans</p>
                     </div>
                 </div>
             </div>

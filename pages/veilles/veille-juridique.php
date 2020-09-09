@@ -43,7 +43,7 @@ require '../../inc/header.php';
             <div class="mb-5">
                 <h2 class="mb-3">Comment mettre en place une veille juridique ?</h2>
                 <div class="m-3">
-                    <p class="text-justify">La mise en place d'une veille juridique, peut se faire de différentes manières :</p>
+                    <p class="text-justify">La mise en place d'une veille juridique peut se faire de différentes manières :</p>
                     <ul>
                         <li>
                             Consultation de sites internet spécialisés, par exemple :
@@ -51,8 +51,8 @@ require '../../inc/header.php';
                             <a href="https://www.lexisnexis.fr/veille-juridique" target="_blank" rel="noopener noreferrer">www.lexisnexis.fr</a>,
                             <a href="https://www.dalloz.fr/" target="_blank" rel="noopener noreferrer">www.dalloz.fr</a>.
                         </li>
-                        <li>Les agrégateurs de contenus. Ils permettent à l'utilisateur de gérer et personnaliser ses abonnements à des flux RSS. Exemples : Netvibes, Feedly, Google Alert, Flipboard, Peartrees.</li>
-                        <li>Les réseaux sociaux. En s’abonnant aux comptes Twitter, Facebook ou LinkedIn de personnalités publiques, la personne en charge de la veille juridique est au courant des actualités en temps réel.</li>
+                        <li>Les agrégateurs de contenu : ils permettent à l'utilisateur de gérer et personnaliser ses abonnements à des flux RSS. Exemples : Netvibes, Feedly, Google Alert, Flipboard, Peartrees.</li>
+                        <li>Les réseaux sociaux : en s’abonnant aux comptes Twitter, Facebook ou LinkedIn de personnalités publiques, la personne responsable de la veille juridique est au courant des actualités en temps réel.</li>
                     </ul>
                 </div>
             </div>
@@ -65,8 +65,8 @@ require '../../inc/header.php';
                 <hr>
                 <div class="m-3 my-5 text-justify">
                     <p>Le <strong>contrat</strong> est l’expression de l’autonomie de la volonté des parties ainsi qu’un instrument de sécurisation des transactions. Il crée un lien juridique obligatoire et relatif dans le respect de l’ordre public et des bonnes mœurs. Les relations économiques entre partenaires privés sont souvent inégalitaires : le droit cherche à instaurer ou à restaurer un équilibre contractuel.</p>
-                    <p>La <strong>production et la fourniture de services</strong> donnent lieu à différents types de contrat : les contrats d’études et de conseil, de production, de maintenance, de mise à disposition.</p>
-                    <p>Le <strong>commerce électronique</strong> est “la vente ou l’achat de biens ou de services, effectués par une entreprise, un particulier, une administration ou toute autre entité publique ou privée, et réalisé au moyen d’un réseau électronique”. On distingue notamment :</p>
+                    <p>La <strong>production et la fourniture de services</strong> donnent lieu à différents types de contrats : les contrats d’études et de conseil, de production, de maintenance, de mise à disposition.</p>
+                    <p>Le <strong>commerce électronique</strong> est “la vente ou l’achat de biens ou de services, effectués par une entreprise, un particulier, une administration ou toute autre entité publique ou privée, et réalisés au moyen d’un réseau électronique”. On distingue notamment :</p>
                     <ul>
                         <li>l’échange électronique entre entreprises, souvent appelé B to B (Business to Business)</li>
                         <li>le commerce électronique à destination des consommateurs, ou B to C (Business to Consumer)</li>
