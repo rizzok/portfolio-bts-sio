@@ -14,8 +14,8 @@ require 'inc/header.php';
 			<div class="my-4 text-justify">
 				<p class="h4 mb-4">Bienvenue,</p>
 				<p>Je m'appelle Kévin RIZZO, je suis candidat à l'examen du BTS SIO option SLAM : Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers.</p>
-				<p>Je me présente à l’examen du BTS au titre de mon expérience professionnelle de 3 ans, en tant que développeur web, au sein de l’entreprise Via Sante. J’ai également suivi 2 années d’études par correspondance, via le CNED.</p>
-				<p>Par la suite, je souhaiterais créer une auto-entreprise afin de proposer mes services dans le domaine du développement web, en me spécialisant dans le back-end (développement côté serveur).</p>
+				<p>Je me présente à l’examen du BTS au titre de mon expérience professionnelle de 4 ans, en tant que développeur web, au sein de l’entreprise Via Sante. J’ai également suivi 2 années d’études par correspondance, via le CNED.</p>
+				<p>Par la suite, je souhaiterais créer une auto-entreprise afin de proposer mes services dans le domaine du développement web, plus particulièrement dans le back-end (développement côté serveur).</p>
 			</div>
 			<hr class="mt-5 mb-4">
 			<div class="my-4 text-center">
