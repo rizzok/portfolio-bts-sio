@@ -77,7 +77,6 @@ require '../inc/header.php';
                             <li>Gestion de bases de données</li>
                             <li>Architecture MVC (Modèle – Vue – Contrôleur)</li>
                             <li>Modélisation UML</li>
-                            <li>Méthode Agile</li>
                             <li>Virtualisation (Hyper-V, VirtualBox, VMware)</li>
                             <li>CMS Prestashop et Wordpress</li>
                             <li>Référencement et campagnes web : SEO, SEA, SMO</li>

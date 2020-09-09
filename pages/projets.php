@@ -63,7 +63,9 @@ require '../inc/header.php';
             <div class="col mb-4">
                 <div class="card">
                     <div>
-                        <img src="/img/projets/ssb-b2c.jpg" class="d-block m-auto py-4" alt="SSB - B2C">
+                        <a href="https://www.surlesentierdesbergers.fr/fr/" target="_blank" rel="noopener noreferrer">
+                            <img src="/img/projets/ssb-b2c.jpg" class="d-block m-auto py-4" alt="SSB - B2C">
+                        </a>
                     </div>
                     <div class="card-footer border-top">
                         <h3 class="h5 card-title">Sur le Sentier des Bergers - B2C</h3>
@@ -79,7 +81,9 @@ require '../inc/header.php';
             <div class="col mb-4">
                 <div class="card">
                     <div>
+                    <a href="https://pro.surlesentierdesbergers.fr/fr/" target="_blank" rel="noopener noreferrer">
                         <img src="/img/projets/ssb-b2b.jpg" class="d-block m-auto py-2" alt="SSB - B2B" width="174">
+                    </a>
                     </div>
                     <div class="card-footer border-top">
                         <h3 class="h5 card-title">Sur le Sentier des Bergers - B2B</h3>
@@ -95,7 +99,9 @@ require '../inc/header.php';
             <div class="col mb-4">
                 <div class="card">
                     <div>
+                    <a href="https://www.laboutiquedesjambes.com/" target="_blank" rel="noopener noreferrer">
                         <img src="/img/projets/bj.jpg" class="d-block m-auto py-4" alt="BJ">
+                    </a>
                     </div>
                     <div class="card-footer border-top">
                         <h3 class="h5 card-title">La Boutique des Jambes</h3>
@@ -111,7 +117,9 @@ require '../inc/header.php';
             <div class="col">
                 <div class="card">
                     <div>
+                    <a href="https://tr-communication.fr/" target="_blank" rel="noopener noreferrer">
                         <img src="/img/projets/trcom.png" class="d-block m-auto py-4" alt="TR com">
+                    </a>
                     </div>
                     <div class="card-footer border-top">
                         <h3 class="h5 card-title">TR Communication</h3>
