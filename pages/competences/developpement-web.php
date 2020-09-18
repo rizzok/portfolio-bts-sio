@@ -286,10 +286,10 @@ require '../../inc/header.php';
             <div class="my-5">
                 <h3 id="item-8">Conclusion et projets</h3>
                 <p class="text-justify m-3">La participation à l'évolution informatique et digitale d'une entreprise pendant 5 ans, ainsi que mes années de formation, m'a permis d'avoir une vision plus globale et approfondie du développement web.</p>
-                <p class="text-justify m-3">Cette expérience m'a également permis de me rendre compte du potentiel qu'une telle évolution peut engendrer pour une entreprise : amélioration des ventes, amélioration de l'image de la marque, mise en place d'un cercle vertueux avec le <a href="https://www.definitions-marketing.com/definition/sem/" target="_blank" rel="noopener noreferrer">SEM*</a> , meilleure communication et contact avec le client, gain de productivité ...</p>
+                <p class="text-justify m-3">Cette expérience m'a également permis de me rendre compte du potentiel qu'une telle évolution peut engendrer pour une entreprise : amélioration des ventes, amélioration de l'image de la marque, mise en place d'un cercle vertueux avec le <a href="https://www.definitions-marketing.com/definition/sem/" target="_blank" rel="noopener noreferrer">SEM*</a> , meilleure communication et contact avec le client, gain de productivité...</p>
                 <p class="text-justify m-3">
-                    À titre personnel, cette expérience m'a permis de déterminer ce qui me plaisait le plus : le développement back-office (côté serveur), et plus particulièrement le langage et les frameworks PHP.<br>
-                    Par la suite, j'ai pour projet de me lancer en tant qu'autoentrepreneur, afin de proposer mes services dans ce domaine, tout en continuant à me former.
+                    À titre personnel, cette expérience m'a permis de déterminer ce qui me plaisait le plus : le développement back-office (côté serveur) et, plus particulièrement, le langage et les frameworks PHP.<br>
+                    Par la suite, j'ai pour projet de me lancer en tant qu'autoentrepreneur afin de proposer mes services dans ce domaine, tout en continuant à me former pour approfondir et élargir mes connaissances.
                 </p>
             </div>
         </div>

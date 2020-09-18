@@ -21,14 +21,14 @@ require '../inc/header.php';
 </div>
 
 <div class="container my-5">
-    <div class="embed-responsive embed-responsive-4by3">
-        <iframe class="embed-responsive-item" src="/pages/cv/cv-rizzo-kevin.pdf"></iframe>
+    <div class="m-auto text-center">
+        <a href="/pages/cv/cv-rizzo-kevin.pdf" download="CV RIZZO Kévin.pdf"><button type="button" class="btn btn-outline-primary">Télécharger mon CV</button></a>
     </div>
 </div>
 
 <div class="container my-5">
-    <div class="m-auto text-center">
-        <a href="/pages/cv/cv-rizzo-kevin.pdf" download="CV RIZZO Kévin.pdf"><button type="button" class="btn btn-outline-primary">Télécharger mon CV</button></a>
+    <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="/pages/cv/cv-rizzo-kevin.pdf"></iframe>
     </div>
 </div>
 

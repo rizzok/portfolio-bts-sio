@@ -57,16 +57,16 @@ require '../inc/header.php';
                             <a href="/pages/competences/outils-de-versioning-git-et-github.php" class="btn btn-primary mb-2">Afficher la page</a>
                         </div>
                     </div>
-                    <!-- <div class="card mb-5">
-                        <a href="#">
-                            <img src="/img/competences/intellij-idea-android-studio.png" class="card-img-top" alt="Programmation Java desktop et mobile">
+                    <div class="card mb-5">
+                        <a href="/pages/competences/gestion-du-patrimoine-informatique.php">
+                            <img src="/img/competences/patrimoine-informatique.jpg" class="card-img-top" alt="Patrimoine informatique">
                         </a>
                         <div class="card-footer">
-                            <h3 class="card-title">Développement d'applications</h2>
-                            <p class="card-text">Programmation orientée objet desktop ou mobile en Java et C#</p>
-                            <a href="#" class="btn btn-primary mb-2">Afficher la page</a>
+                            <h3 class="card-title">Gestion du patrimoine informatique</h2>
+                            <p class="card-text">Entretien et optimisation de l’ensemble des ressources informatiques de l’entreprise</p>
+                            <a href="/pages/competences/gestion-du-patrimoine-informatique.php" class="btn btn-primary mb-2">Afficher la page</a>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="col-lg-9 m-auto">
                     <div class="mb-4">
@@ -74,8 +74,9 @@ require '../inc/header.php';
                     </div>
                     <div class="mb-5">
                         <ul>
-                            <li>Gestion de bases de données</li>
+                            <li>Maîtrise des principaux outils d'un IDE</li>
                             <li>Architecture MVC (Modèle – Vue – Contrôleur)</li>
+                            <li>Gestion de bases de données</li>
                             <li>Modélisation UML</li>
                             <li>Virtualisation (Hyper-V, VirtualBox, VMware)</li>
                             <li>CMS Prestashop et Wordpress</li>

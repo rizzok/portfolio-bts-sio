@@ -10,3 +10,4 @@ https://ostyl.fr/pages/veilles/veille-technologique.php
 https://ostyl.fr/pages/veilles/veille-juridique.php
 https://ostyl.fr/pages/contact.php
 https://ostyl.fr/pages/cv.php
+https://ostyl.fr/pages/politique-de-cookies.php
