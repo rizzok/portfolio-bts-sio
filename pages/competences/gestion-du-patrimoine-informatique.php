@@ -54,19 +54,19 @@ require '../../inc/header.php';
                 <p class="text-justify">L'entreprise VIA SANTE comporte 1 serveur auquel sont reliés 8 postes.</p>
 
                 <ul>
-                    <li class="h5">Recencement de l'ensemble des éléments du parc informatique et gestion d'incidents</li>
+                    <li class="h5">Recensement de l'ensemble des éléments du parc informatique et gestion d'incidents</li>
                     <p class="text-justify">
-                        Effectués grâce à l'outil GLPI (Gestionnaire Libre de Parc Informatique), qui est une application web proposant de nombreux outils. Parmis ses principaux outils, il y a l'inventaire des matériels et la gestion des tickets d'incident.<br>
+                        Effectués grâce à l'outil GLPI (Gestionnaire Libre de Parc Informatique), qui est une application web proposant de nombreux outils. Parmi ses principaux outils, il y a l'inventaire des matériels et la gestion des tickets d'incident.<br>
                         J'effectuais moi-même la maintenance et les résolutions de problèmes la plupart du temps.<br>
-                        Si des problèmes apparaissaient sur des logiciels spécifiques, qui étaient en dehors de mes compétences, je prennais contact avec le service technique adéquat pour le solutionner. J'ai du par exemple contacter les services techniques concernant : l'ERP de l'entreprise, le logiciel de comptabilité Sage, ou encore le logiciel de la Poste nommé ColiPoste.
+                        Si des problèmes apparaissaient sur des logiciels spécifiques, qui étaient en dehors de mes compétences, je prenais contact avec le service technique adéquat pour le résoudre. J'ai dû par exemple contacter les services techniques concernant : l'ERP de l'entreprise, le logiciel de comptabilité Sage, ou encore le logiciel de la Poste nommé ColiPoste.
                     </p>
                     <div class="text-center mb-4">
                         <img src="/img/competences/gestion-patrimoine/logo-glpi.png" alt="Logo GLPI" height="100px">
                     </div>
 
-                    <li class="h5">Administration du serveur, des équipement réseau et définition de l'organisation</li>
+                    <li class="h5">Administration du serveur, des équipements réseau et définition de l'organisation</li>
                     <p class="text-justify">
-                        Organisation des comptes utilisateurs dans des groupes d'utilisateurs grâce à Active Directory sur Windows Server 2012.
+                        Organisation des comptes utilisateurs dans des groupes d'utilisateurs grâce à Active Directory sur Windows Server.
                     </p>
 
                     <li class="h5">Gestion des sauvegardes</li>
@@ -81,7 +81,7 @@ require '../../inc/header.php';
 
                     <li class="h5">Formation des utilisateurs aux usages informatiques</li>
                     <p class="text-justify">
-                        Formation principalement sur l'utilisation du back office des sites de e-commerces.<br>
+                        Formation principalement sur l'utilisation du back-office des sites de e-commerces.<br>
                         La formation est différente selon le type d'utilisateur : direction, comptabilité, saisie de commande, service client, préparation de commande.
                     </p>
 
@@ -89,7 +89,7 @@ require '../../inc/header.php';
                     <p class="text-justify">
                         Certains postes étaient devenus obsolètes pour différentes raisons : manque de puissance, architecture du processeur en 32 bits, fin du support de Windows 7.<br>
                         J'ai donc défini, en fonction du besoin, les composants nécessaires.<br>
-                        Puis j'ai commandé, monté et installé 3 postes de travails :
+                        Puis j'ai commandé, monté et installé 3 postes de travail :
                     </p>
 
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
