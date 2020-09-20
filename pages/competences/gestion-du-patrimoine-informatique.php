@@ -66,8 +66,19 @@ require '../../inc/header.php';
 
                     <li class="h5">Administration du serveur, des équipements réseau et définition de l'organisation</li>
                     <p class="text-justify">
-                        Organisation des comptes utilisateurs dans des groupes d'utilisateurs grâce à Active Directory sur Windows Server.
+                        Organisation des comptes utilisateurs dans des groupes d'utilisateurs grâce à Active Directory sur Windows Server.<br>
+                        Attribution de répertoires partagés selon les groupes d'utilisateurs.
                     </p>
+
+                    <li class="h5">Gestion des versions (versionning)</li>
+                    <p class="text-justify mb-0">
+                        Utilisation de Git et GitHub, autant pour l'historique des versions que pour le travail collaboratif :<br>
+                        Lors de mon parcours dans l'entreprise Via Santé, une spécialiste du référencements web a travaillé avec moi pendant 6 mois.
+                    </p>
+                    <p>→ <a href="" class="mb-0">Voir ma page dédiée aux outils de versionning</a></p>
+                    <div class="text-center mb-4">
+                        <img src="/img/competences/gestion-patrimoine/github.png" alt="Logo Github" height="100px">
+                    </div>
 
                     <li class="h5">Gestion des sauvegardes</li>
                     <p class="text-justify">Sauvegardes du serveur et de la base de données effectuées quotidiennement sur des disques durs externes, en effectuant une rotation.</p>
@@ -83,6 +94,16 @@ require '../../inc/header.php';
                     <p class="text-justify">
                         Formation principalement sur l'utilisation du back-office des sites de e-commerces.<br>
                         La formation est différente selon le type d'utilisateur : direction, comptabilité, saisie de commande, service client, préparation de commande.
+                    </p>
+                    </p>
+
+                    <li class="h5">Étude de devis et choix de solutions</li>
+                    <p class="text-justify">
+                        Demande et étude de devis<br>
+                        Choix de la solution le plus appropriée<br>
+                        Par exemple :<br>
+                         - en 2016, achat de 2 nouveaux postes utilisateur, de licences antivirus et Office<br>
+                         - en 2018, achat d'un nouveau serveur avec choix d'héberger notre ancien serveur dans une machine virtuelle sous Hyper-V
                     </p>
 
                     <li class="h5">Procédures de renouvellement des postes informatiques</li>
