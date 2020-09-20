@@ -88,7 +88,7 @@ require '../../inc/header.php';
                     </P>
                 </div>
                 <div class="m-3">
-                    <h4 class="h5">Mise en ligne du site</h4>
+                    <h4 class="h5">Mise en production</h4>
                     <P class="text-justify">
                         Le site local terminé et prêt à être mis en production, j'ai effectué la mise en ligne de celui-ci et le remplacement du site vitrine qu'il y avait auparavant.<br>
                         La mise en ligne consiste à :
