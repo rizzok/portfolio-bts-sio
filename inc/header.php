@@ -47,7 +47,8 @@
     <!-- Custom CSS -->
     <link href="/css/style.css" rel="stylesheet">
     <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/fafd7398ca.js" crossorigin="anonymous"></script>
+    <link href="/css/fontawesome/css/all.css" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/fafd7398ca.js" crossorigin="anonymous"></script> -->
 </head>
 
 <body class="d-flex flex-column h-100">
