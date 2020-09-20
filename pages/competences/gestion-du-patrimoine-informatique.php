@@ -75,7 +75,7 @@ require '../../inc/header.php';
                         Utilisation de Git et GitHub, autant pour l'historique des versions que pour le travail collaboratif :<br>
                         Lors de mon parcours dans l'entreprise Via Santé, une spécialiste du référencements web a travaillé avec moi pendant 6 mois.
                     </p>
-                    <p>→ <a href="" class="mb-0">Voir ma page dédiée aux outils de versionning</a></p>
+                    <p>→ <a href="/pages/competences/outils-de-versioning-git-et-github.php" class="mb-0">Voir ma page dédiée aux outils de versionning</a></p>
                     <div class="text-center mb-4">
                         <img src="/img/competences/gestion-patrimoine/github.png" alt="Logo Github" height="100px">
                     </div>
