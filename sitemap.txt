@@ -1,14 +1,1 @@
 https://ostyl.fr/
-https://ostyl.fr/pages/competences.php
-https://ostyl.fr/pages/competences/developpement-web.php
-https://ostyl.fr/pages/competences/outils-de-versioning-git-et-github.php
-https://ostyl.fr/pages/competences/gestion-du-patrimoine-informatique.php
-https://ostyl.fr/pages/projets.php
-https://ostyl.fr/pages/projets/gsb-frais.php
-https://ostyl.fr/pages/projets/gsb-gestion-cloture.php
-https://ostyl.fr/pages/veilles.php
-https://ostyl.fr/pages/veilles/veille-technologique.php
-https://ostyl.fr/pages/veilles/veille-juridique.php
-https://ostyl.fr/pages/contact.php
-https://ostyl.fr/pages/cv.php
-https://ostyl.fr/pages/politique-de-cookies.php
